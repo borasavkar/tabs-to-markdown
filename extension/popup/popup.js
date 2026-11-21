@@ -34,6 +34,7 @@ init();
 
 async function init() {
   localizePage();
+  $('version').textContent = `v${api.runtime.getManifest().version}`;
   const stored = await api.storage.local.get(['settings', 'memory']);
   settings = { ...DEFAULTS, ...(stored.settings || {}) };
   memory = stored.memory || {};
@@ -85,7 +86,7 @@ function readSettings() {
 function bindEvents() {
   $('tab-tabs').addEventListener('click', () => { userFolderChoice = null; showPanel('tabs'); readSettings(); suggestFolder(); });
   $('tab-links').addEventListener('click', () => { userFolderChoice = null; showPanel('links'); readSettings(); suggestFolder(); });
-  $('source').addEventListener('change', () => { userFolderChoice = null; renderTabList(); suggestFolder(); });
+  $('source').addEventListener('change', () => { userFolderChoice = null; folderTouched = false; renderTabList(); suggestFolder(); });
   $('all').addEventListener('change', () => {
     for (const cb of document.querySelectorAll('#tablist input:not(:disabled)')) cb.checked = $('all').checked;
     updateCount();
@@ -234,53 +235,38 @@ function hostOf(url) {
 
 // ------------------------------------------------------------------ klasör adı
 
-// Sıra: 1) bu sayfalardan biri daha önce kaydedildiyse o klasör, 2) bu sekme grubu
-// daha önce bir klasöre kaydedildiyse o klasör, 3) grubun adı, 4) başlıklardan/linklerden tahmin.
-// Klasöre mi kaydedilecek? Sekme grubu seçiliyse her zaman klasöre. Grupsuzda varsayılan
-// klasörsüz kayıttır (İndirilenler dolmasın); ama sayfalardan biri daha önce bir klasöre
-// kaydedildiyse araştırmaya devam sayılır ve klasör açılır. Kullanıcının kutucuk seçimi önceliklidir.
+// Kural (kullanıcının istediği gibi, başka hiçbir şeye bakmadan):
+// - Sekme grubu seçiliyse: klasöre kaydedilir, klasör adı grubun adıdır
+//   (grubun adı yoksa sayfa başlıklarından tahmin edilir).
+// - Grup yoksa: klasör açılmaz, dosya doğrudan İndirilenler'e iner. Kutucuk yalnızca
+//   kullanıcı işaretlerse açılır; kendiliğinden asla açılmaz.
 let userFolderChoice = null;
 
 function isGrouped() {
   return settings.panel === 'tabs' && $('source').value.startsWith('group:');
 }
 
-function updateFolderMode(continuing) {
+function updateFolderMode() {
   const grouped = isGrouped();
-  const useFolder = grouped || (userFolderChoice ?? continuing);
+  const useFolder = grouped || userFolderChoice === true;
   $('rootBox').hidden = grouped;
   $('useFolder').checked = useFolder;
   $('folderBox').hidden = !useFolder;
 }
 
 function suggestFolder() {
-  const fromHistoryNow = (urls) => urls.some((u) => memory.pages?.[normalizeUrl(u)]);
-  const urlsNow = settings.panel === 'tabs' ? checkedTabs().map((tab) => tab.url) : parseLinks($('links').value);
-  updateFolderMode(fromHistoryNow(urlsNow));
+  updateFolderMode();
   if (folderTouched) return;
   let name = '';
   let source = '';
-  const fromHistory = (urls) => {
-    let best = null;
-    for (const u of urls) {
-      const m = memory.pages?.[normalizeUrl(u)];
-      if (m && (!best || m.at > best.at)) best = m;
-    }
-    return best?.folder || '';
-  };
-
   if (settings.panel === 'tabs') {
     const tabs = checkedTabs();
     const groupTitle = selectedGroupTitle();
-    const groupMemory = groupTitle ? memory.groups?.[folderKey(groupTitle)]?.folder : '';
-    if ((name = fromHistory(tabs.map((tab) => tab.url)))) source = 'folderFromHistory';
-    else if ((name = groupMemory)) source = 'folderFromHistory';
-    else if ((name = groupTitle)) source = 'folderFromGroup';
+    if ((name = groupTitle)) source = 'folderFromGroup';
     else if ((name = guessFolderName(tabs.map((tab) => tab.title), LOCALE))) source = 'folderFromTitles';
   } else {
     const urls = parseLinks($('links').value);
-    if ((name = fromHistory(urls))) source = 'folderFromHistory';
-    else if ((name = guessFolderName(urls.map(urlWords), LOCALE))) source = 'folderFromLinks';
+    if ((name = guessFolderName(urls.map(urlWords), LOCALE))) source = 'folderFromLinks';
   }
   $('folder').value = name || '';
   $('folderSource').textContent = name ? t(source) : '';
