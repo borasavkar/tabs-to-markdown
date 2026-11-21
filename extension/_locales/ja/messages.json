@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "タブ、タブグループ、リンクをきれいな Markdown ファイルに変換し、ChatGPT・Claude・Gemini などの AI にアップロードできます。"
+  },
+  "popupSubtitle": {
+    "message": "ページを AI 用の Markdown ファイルに変換"
+  },
+  "folderLabel": {
+    "message": "フォルダー名"
+  },
+  "folderHint": {
+    "message": "（「ダウンロード」内に作成）"
+  },
+  "folderPlaceholder": {
+    "message": "例：Bluetooth イヤホン"
+  },
+  "recentFolders": {
+    "message": "最近："
+  },
+  "savesToDownloads": {
+    "message": "タブグループなし：ファイルは「ダウンロード」に直接保存されます。"
+  },
+  "saveToFolder": {
+    "message": "代わりにフォルダーに保存"
+  },
+  "progressDoneRoot": {
+    "message": "完了：$1 ページを $2 に保存しました（$3 ファイル）。"
+  },
+  "folderFromHistory": {
+    "message": "前回の調べものの続き：これらのページの一部は以前このフォルダーに保存されました。"
+  },
+  "folderFromGroup": {
+    "message": "タブグループ名から。"
+  },
+  "folderFromTitles": {
+    "message": "ページタイトルから提案しました。変更できます。"
+  },
+  "folderFromLinks": {
+    "message": "リンクから提案しました。変更できます。"
+  },
+  "tabTabs": {
+    "message": "タブから"
+  },
+  "tabLinks": {
+    "message": "リンクから"
+  },
+  "sourceLabel": {
+    "message": "どのタブ？"
+  },
+  "sourceGroup": {
+    "message": "タブグループ：$1（$2）"
+  },
+  "unnamedGroup": {
+    "message": "名前のないグループ $1"
+  },
+  "sourceSelected": {
+    "message": "選択したタブ（$1）"
+  },
+  "sourceWindow": {
+    "message": "このウィンドウのすべてのタブ（$1）"
+  },
+  "sourceActive": {
+    "message": "このタブのみ"
+  },
+  "selectAll": {
+    "message": "すべて選択"
+  },
+  "selectedCount": {
+    "message": "$1 / $2 件選択"
+  },
+  "notWebPage": {
+    "message": "ウェブページではないため読み取れません"
+  },
+  "scrollTabs": {
+    "message": "先にページをスクロール"
+  },
+  "scrollTabsHint": {
+    "message": "（後から読み込まれる部分用、遅くなります）"
+  },
+  "linksLabel": {
+    "message": "リンク"
+  },
+  "linksHint": {
+    "message": "（1 行に 1 つ）"
+  },
+  "linksNone": {
+    "message": "リンクはまだありません"
+  },
+  "linksFound": {
+    "message": "$1 件のリンクが見つかりました"
+  },
+  "scrollLinks": {
+    "message": "ページをスクロールして後から読み込まれる部分も取得"
+  },
+  "keepOpen": {
+    "message": "開いたタブを閉じない"
+  },
+  "keepOpenHint": {
+    "message": "（タブグループにまとめます）"
+  },
+  "saveSettings": {
+    "message": "保存設定"
+  },
+  "combine": {
+    "message": "すべてを 1 つのファイルにまとめる"
+  },
+  "separate": {
+    "message": "各ページを個別のファイルとしても保存"
+  },
+  "fileType": {
+    "message": "ファイル形式："
+  },
+  "readMode": {
+    "message": "読み取り方法"
+  },
+  "modeAuto": {
+    "message": "自動（推奨）"
+  },
+  "modeReader": {
+    "message": "リーダービュー（記事、ブログ）"
+  },
+  "modeFull": {
+    "message": "ページ全体"
+  },
+  "go": {
+    "message": "Markdown に変換してダウンロード"
+  },
+  "showFolder": {
+    "message": "フォルダーを表示"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "newJob": {
+    "message": "新しい処理"
+  },
+  "downloadsFolder": {
+    "message": "ダウンロード"
+  },
+  "errFolder": {
+    "message": "先にフォルダー名を入力してください（例：商品名）。"
+  },
+  "errSaveOption": {
+    "message": "保存設定で少なくとも 1 つ選択してください。"
+  },
+  "errNoTabs": {
+    "message": "タブが選択されていません。"
+  },
+  "errNoLinks": {
+    "message": "リンクをボックスに貼り付けてください（1 行に 1 つ）。"
+  },
+  "errTooManyLinks": {
+    "message": "一度に読み取れるリンクは最大 $1 件です。"
+  },
+  "errStart": {
+    "message": "開始できませんでした。"
+  },
+  "progressRunning": {
+    "message": "$1 / $2 ページ読み取り済み…"
+  },
+  "progressDone": {
+    "message": "完了：$1 ページを $2/$3 に保存しました（$4 ファイル）。"
+  },
+  "progressFailed": {
+    "message": "$1 ページを読み取れませんでした。"
+  },
+  "progressNone": {
+    "message": "読み取れたページがなく、何も保存されませんでした。"
+  },
+  "permTitle": {
+    "message": "ウェブサイトへのアクセス許可が必要です"
+  },
+  "permText": {
+    "message": "ページを読み取るには、この拡張機能にウェブサイトへのアクセス許可が必要です。ページは処理を開始したときにのみ読み取られ、データがパソコンの外に送られることはありません。"
+  },
+  "permButton": {
+    "message": "アクセスを許可"
+  },
+  "permGranted": {
+    "message": "許可されました。このタブを閉じて拡張機能のアイコンをクリックしてください。"
+  },
+  "permDenied": {
+    "message": "許可されませんでした。許可がないとページを読み取れません。"
+  },
+  "welcomeHeading": {
+    "message": "ようこそ"
+  },
+  "welcomeIntro": {
+    "message": "タブグループ、選択したタブ、貼り付けたリンクを Markdown ファイルとして保存し、AI アシスタントにアップロードしましょう。"
+  },
+  "errBusy": {
+    "message": "すでに処理が実行中です。"
+  },
+  "errNotWeb": {
+    "message": "ウェブページではないためスキップしました。"
+  },
+  "errUnknown": {
+    "message": "不明なエラー"
+  },
+  "errErrorPage": {
+    "message": "ページを読み込めませんでした。サイトがエラーページを表示しました。"
+  },
+  "errNoAccess": {
+    "message": "このページにアクセスできません（PDF、ブラウザーのページ、または保護されたサイトの可能性があります）。$1"
+  },
+  "errTimeout": {
+    "message": "ページが時間内に応答しませんでした。"
+  },
+  "errSave": {
+    "message": "ファイルを保存できませんでした：$1"
+  },
+  "errPermissionMissing": {
+    "message": "ウェブサイトへのアクセスが許可されていません。"
+  },
+  "sizeChars": {
+    "message": "$1 文字"
+  },
+  "allFiles": {
+    "message": "すべて"
+  },
+  "combinedIntro": {
+    "message": "このファイルには、$2 で保存した $1 件のウェブページのテキストが含まれています。価格・在庫・レビューは保存時点のものです。"
+  },
+  "savedAt": {
+    "message": "保存日時"
+  },
+  "pageCount": {
+    "message": "ページ数"
+  },
+  "toc": {
+    "message": "目次"
+  },
+  "failedPages": {
+    "message": "読み取れなかったページ"
+  },
+  "pageN": {
+    "message": "ページ $1"
+  },
+  "errBlocked": {
+    "message": "サイトが確認画面を表示しています。タブを開いてご自身で確認を済ませてから、「タブから」で再度取得してください。"
+  },
+  "errRead": {
+    "message": "ページを読み取れませんでした：$1"
+  },
+  "mdSite": {
+    "message": "サイト"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "ページタイトル"
+  },
+  "mdProductSummary": {
+    "message": "商品の概要"
+  },
+  "mdFromStructured": {
+    "message": "ページに埋め込まれた商品データから取得しました。"
+  },
+  "mdField": {
+    "message": "項目"
+  },
+  "mdValue": {
+    "message": "値"
+  },
+  "mdProduct": {
+    "message": "商品"
+  },
+  "mdBrand": {
+    "message": "ブランド"
+  },
+  "mdModel": {
+    "message": "モデル"
+  },
+  "mdColor": {
+    "message": "色"
+  },
+  "mdCategory": {
+    "message": "カテゴリ"
+  },
+  "mdPrice": {
+    "message": "価格"
+  },
+  "mdPriceRange": {
+    "message": "価格帯"
+  },
+  "mdOffers": {
+    "message": "$1 件の出品"
+  },
+  "mdStock": {
+    "message": "在庫"
+  },
+  "mdSeller": {
+    "message": "販売者"
+  },
+  "mdRating": {
+    "message": "評価"
+  },
+  "mdVotes": {
+    "message": "$1 件の評価"
+  },
+  "mdReviewCount": {
+    "message": "$1 件のレビュー"
+  },
+  "mdSku": {
+    "message": "商品コード（SKU）"
+  },
+  "mdGtin": {
+    "message": "バーコード（GTIN）"
+  },
+  "mdSpecs": {
+    "message": "仕様"
+  },
+  "mdSpec": {
+    "message": "項目"
+  },
+  "mdSellerPrices": {
+    "message": "販売者別の価格（安い順、上位 $1 件）"
+  },
+  "mdVariants": {
+    "message": "選択肢"
+  },
+  "mdReviewSamples": {
+    "message": "レビューの例（ページデータ内の $1 件）"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 つ星"
+  },
+  "mdPageContent": {
+    "message": "ページの内容"
+  },
+  "mdMethod": {
+    "message": "読み取り方法：$1。"
+  },
+  "methodSite": {
+    "message": "サイト別の部分"
+  },
+  "methodMain": {
+    "message": "ページの主要部分"
+  },
+  "methodFull": {
+    "message": "ページ全体"
+  },
+  "methodReader": {
+    "message": "リーダービュー"
+  },
+  "mdColumn": {
+    "message": "列 $1"
+  },
+  "availInStock": {
+    "message": "在庫あり"
+  },
+  "availOutOfStock": {
+    "message": "在庫切れ"
+  },
+  "availSoldOut": {
+    "message": "完売"
+  },
+  "availPreOrder": {
+    "message": "予約受付中"
+  },
+  "availPreSale": {
+    "message": "先行販売"
+  },
+  "availBackOrder": {
+    "message": "取り寄せ"
+  },
+  "availLimited": {
+    "message": "在庫僅少"
+  },
+  "availDiscontinued": {
+    "message": "販売終了"
+  },
+  "availInStoreOnly": {
+    "message": "店舗のみ"
+  },
+  "availOnlineOnly": {
+    "message": "オンラインのみ"
+  }
+}

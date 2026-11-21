@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "Convierte pestañas, grupos de pestañas o enlaces en archivos Markdown limpios para subirlos a ChatGPT, Claude, Gemini y otras IA."
+  },
+  "popupSubtitle": {
+    "message": "Convierte páginas en archivos Markdown para la IA"
+  },
+  "folderLabel": {
+    "message": "Nombre de la carpeta"
+  },
+  "folderHint": {
+    "message": "(se crea dentro de Descargas)"
+  },
+  "folderPlaceholder": {
+    "message": "p. ej., Auriculares Bluetooth"
+  },
+  "recentFolders": {
+    "message": "Recientes:"
+  },
+  "savesToDownloads": {
+    "message": "Sin grupo de pestañas: el archivo se guarda directamente en Descargas."
+  },
+  "saveToFolder": {
+    "message": "Guardar en una carpeta"
+  },
+  "progressDoneRoot": {
+    "message": "Listo: $1 páginas guardadas en $2 ($3 archivos)."
+  },
+  "folderFromHistory": {
+    "message": "Investigación anterior: algunas de estas páginas ya se guardaron en esta carpeta."
+  },
+  "folderFromGroup": {
+    "message": "Del nombre del grupo de pestañas."
+  },
+  "folderFromTitles": {
+    "message": "Sugerido a partir de los títulos de las páginas; puedes cambiarlo."
+  },
+  "folderFromLinks": {
+    "message": "Sugerido a partir de los enlaces; puedes cambiarlo."
+  },
+  "tabTabs": {
+    "message": "Desde pestañas"
+  },
+  "tabLinks": {
+    "message": "Desde enlaces"
+  },
+  "sourceLabel": {
+    "message": "¿Qué pestañas?"
+  },
+  "sourceGroup": {
+    "message": "Grupo de pestañas: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "Grupo sin nombre $1"
+  },
+  "sourceSelected": {
+    "message": "Pestañas seleccionadas ($1)"
+  },
+  "sourceWindow": {
+    "message": "Todas las pestañas de esta ventana ($1)"
+  },
+  "sourceActive": {
+    "message": "Solo esta pestaña"
+  },
+  "selectAll": {
+    "message": "Seleccionar todo"
+  },
+  "selectedCount": {
+    "message": "$1 / $2 seleccionadas"
+  },
+  "notWebPage": {
+    "message": "No es una página web, no se puede leer"
+  },
+  "scrollTabs": {
+    "message": "Desplazar primero las páginas"
+  },
+  "scrollTabsHint": {
+    "message": "(para secciones que cargan tarde; más lento)"
+  },
+  "linksLabel": {
+    "message": "Enlaces"
+  },
+  "linksHint": {
+    "message": "(uno por línea)"
+  },
+  "linksNone": {
+    "message": "Aún no hay enlaces"
+  },
+  "linksFound": {
+    "message": "$1 enlaces encontrados"
+  },
+  "scrollLinks": {
+    "message": "Desplazar las páginas para capturar secciones que cargan tarde"
+  },
+  "keepOpen": {
+    "message": "Mantener abiertas las pestañas"
+  },
+  "keepOpenHint": {
+    "message": "(las reúne en un grupo de pestañas)"
+  },
+  "saveSettings": {
+    "message": "Opciones de guardado"
+  },
+  "combine": {
+    "message": "Combinar todo en un solo archivo"
+  },
+  "separate": {
+    "message": "Guardar también cada página en su propio archivo"
+  },
+  "fileType": {
+    "message": "Tipo de archivo:"
+  },
+  "readMode": {
+    "message": "Método de lectura"
+  },
+  "modeAuto": {
+    "message": "Automático (recomendado)"
+  },
+  "modeReader": {
+    "message": "Vista de lectura (artículos, blogs)"
+  },
+  "modeFull": {
+    "message": "Página completa"
+  },
+  "go": {
+    "message": "Convertir a Markdown y descargar"
+  },
+  "showFolder": {
+    "message": "Mostrar carpeta"
+  },
+  "stop": {
+    "message": "Detener"
+  },
+  "newJob": {
+    "message": "Nueva tarea"
+  },
+  "downloadsFolder": {
+    "message": "Descargas"
+  },
+  "errFolder": {
+    "message": "Escribe primero un nombre de carpeta (p. ej., el nombre del producto)."
+  },
+  "errSaveOption": {
+    "message": "Marca al menos una opción de guardado."
+  },
+  "errNoTabs": {
+    "message": "No hay pestañas seleccionadas."
+  },
+  "errNoLinks": {
+    "message": "Pega los enlaces en el cuadro (uno por línea)."
+  },
+  "errTooManyLinks": {
+    "message": "Se pueden leer como máximo $1 enlaces a la vez."
+  },
+  "errStart": {
+    "message": "No se pudo iniciar."
+  },
+  "progressRunning": {
+    "message": "$1 / $2 páginas leídas…"
+  },
+  "progressDone": {
+    "message": "Listo: $1 páginas guardadas en $2/$3 ($4 archivos)."
+  },
+  "progressFailed": {
+    "message": "No se pudieron leer $1 páginas."
+  },
+  "progressNone": {
+    "message": "No se pudo leer ninguna página; no se guardó nada."
+  },
+  "permTitle": {
+    "message": "Se necesita acceso a los sitios web"
+  },
+  "permText": {
+    "message": "Para leer páginas, esta extensión necesita permiso para acceder a los sitios web. Las páginas solo se leen cuando inicias una tarea y nada sale de tu equipo."
+  },
+  "permButton": {
+    "message": "Conceder acceso"
+  },
+  "permGranted": {
+    "message": "Acceso concedido. Puedes cerrar esta pestaña y hacer clic en el icono de la extensión."
+  },
+  "permDenied": {
+    "message": "No se concedió el acceso. La extensión no puede leer páginas sin él."
+  },
+  "welcomeHeading": {
+    "message": "Bienvenido"
+  },
+  "welcomeIntro": {
+    "message": "Guarda grupos de pestañas, pestañas seleccionadas o enlaces pegados como archivos Markdown y súbelos a tu asistente de IA."
+  },
+  "errBusy": {
+    "message": "Ya hay una tarea en curso."
+  },
+  "errNotWeb": {
+    "message": "No es una página web; se omitió."
+  },
+  "errUnknown": {
+    "message": "Error desconocido"
+  },
+  "errErrorPage": {
+    "message": "La página no se cargó; el sitio mostró una página de error."
+  },
+  "errNoAccess": {
+    "message": "No se puede acceder a esta página (puede ser un PDF, una página del navegador o un sitio protegido). $1"
+  },
+  "errTimeout": {
+    "message": "La página no respondió a tiempo."
+  },
+  "errSave": {
+    "message": "No se pudieron guardar los archivos: $1"
+  },
+  "errPermissionMissing": {
+    "message": "No se ha concedido acceso a los sitios web."
+  },
+  "sizeChars": {
+    "message": "$1 caracteres"
+  },
+  "allFiles": {
+    "message": "TODO"
+  },
+  "combinedIntro": {
+    "message": "Este archivo contiene el texto de $1 páginas web guardadas con $2. Los precios, el stock y las reseñas corresponden al momento en que se guardaron."
+  },
+  "savedAt": {
+    "message": "Guardado"
+  },
+  "pageCount": {
+    "message": "Páginas"
+  },
+  "toc": {
+    "message": "Contenido"
+  },
+  "failedPages": {
+    "message": "Páginas que no se pudieron leer"
+  },
+  "pageN": {
+    "message": "Página $1"
+  },
+  "errBlocked": {
+    "message": "El sitio muestra una pantalla de verificación. Abre la pestaña, completa la verificación tú mismo y vuelve a capturarla con «Desde pestañas»."
+  },
+  "errRead": {
+    "message": "No se pudo leer la página: $1"
+  },
+  "mdSite": {
+    "message": "Sitio"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "Título de la página"
+  },
+  "mdProductSummary": {
+    "message": "Resumen del producto"
+  },
+  "mdFromStructured": {
+    "message": "Tomado de los datos del producto incrustados en la página."
+  },
+  "mdField": {
+    "message": "Campo"
+  },
+  "mdValue": {
+    "message": "Valor"
+  },
+  "mdProduct": {
+    "message": "Producto"
+  },
+  "mdBrand": {
+    "message": "Marca"
+  },
+  "mdModel": {
+    "message": "Modelo"
+  },
+  "mdColor": {
+    "message": "Color"
+  },
+  "mdCategory": {
+    "message": "Categoría"
+  },
+  "mdPrice": {
+    "message": "Precio"
+  },
+  "mdPriceRange": {
+    "message": "Rango de precios"
+  },
+  "mdOffers": {
+    "message": "$1 ofertas"
+  },
+  "mdStock": {
+    "message": "Disponibilidad"
+  },
+  "mdSeller": {
+    "message": "Vendedor"
+  },
+  "mdRating": {
+    "message": "Valoración"
+  },
+  "mdVotes": {
+    "message": "$1 valoraciones"
+  },
+  "mdReviewCount": {
+    "message": "$1 reseñas"
+  },
+  "mdSku": {
+    "message": "Código de producto (SKU)"
+  },
+  "mdGtin": {
+    "message": "Código de barras (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "Especificaciones"
+  },
+  "mdSpec": {
+    "message": "Característica"
+  },
+  "mdSellerPrices": {
+    "message": "Precios por vendedor (de menor a mayor, primeros $1)"
+  },
+  "mdVariants": {
+    "message": "Opciones"
+  },
+  "mdReviewSamples": {
+    "message": "Reseñas de ejemplo ($1 reseñas de los datos de la página)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 estrellas"
+  },
+  "mdPageContent": {
+    "message": "Contenido de la página"
+  },
+  "mdMethod": {
+    "message": "Método de lectura: $1."
+  },
+  "methodSite": {
+    "message": "secciones específicas del sitio"
+  },
+  "methodMain": {
+    "message": "parte principal de la página"
+  },
+  "methodFull": {
+    "message": "página completa"
+  },
+  "methodReader": {
+    "message": "vista de lectura"
+  },
+  "mdColumn": {
+    "message": "Columna $1"
+  },
+  "availInStock": {
+    "message": "En stock"
+  },
+  "availOutOfStock": {
+    "message": "Agotado"
+  },
+  "availSoldOut": {
+    "message": "Sin existencias"
+  },
+  "availPreOrder": {
+    "message": "Reserva"
+  },
+  "availPreSale": {
+    "message": "Preventa"
+  },
+  "availBackOrder": {
+    "message": "Bajo pedido"
+  },
+  "availLimited": {
+    "message": "Disponibilidad limitada"
+  },
+  "availDiscontinued": {
+    "message": "Descatalogado"
+  },
+  "availInStoreOnly": {
+    "message": "Solo en tienda"
+  },
+  "availOnlineOnly": {
+    "message": "Solo en línea"
+  }
+}

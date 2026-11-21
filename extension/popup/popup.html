@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Tabs to Markdown for AI</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <!-- Metinler popup.js içinde dil dosyasından doldurulur (data-i18n). -->
+  <header>
+    <h1 data-i18n="extName"></h1>
+    <p class="sub" data-i18n="popupSubtitle"></p>
+  </header>
+
+  <section id="perm" class="notice" hidden>
+    <h2 data-i18n="permTitle"></h2>
+    <p data-i18n="permText"></p>
+    <button id="permBtn" type="button" class="primary" data-i18n="permButton"></button>
+  </section>
+
+  <section id="form" hidden>
+    <!-- Sekme grubu yokken varsayılan klasörsüz kayıttır; kutucukla klasöre geçilebilir. -->
+    <div id="rootBox" class="rootbox" hidden>
+      <p class="hint" data-i18n="savesToDownloads"></p>
+      <label class="opt"><input type="checkbox" id="useFolder"> <span data-i18n="saveToFolder"></span></label>
+    </div>
+    <div id="folderBox">
+      <label class="field">
+        <span><span data-i18n="folderLabel"></span> <small data-i18n="folderHint"></small></span>
+        <input id="folder" type="text" maxlength="80" dir="auto" data-i18n-placeholder="folderPlaceholder">
+      </label>
+      <p id="folderSource" class="hint"></p>
+      <div id="recent" class="recent" hidden>
+        <span data-i18n="recentFolders"></span>
+      </div>
+    </div>
+
+    <div class="switch" role="tablist">
+      <button id="tab-tabs" type="button" role="tab" aria-selected="true" data-i18n="tabTabs"></button>
+      <button id="tab-links" type="button" role="tab" aria-selected="false" data-i18n="tabLinks"></button>
+    </div>
+
+    <div id="panel-tabs">
+      <label class="field">
+        <span data-i18n="sourceLabel"></span>
+        <select id="source"></select>
+      </label>
+      <div class="list-head">
+        <label><input type="checkbox" id="all" checked> <span data-i18n="selectAll"></span></label>
+        <span id="count"></span>
+      </div>
+      <ul id="tablist" class="tablist"></ul>
+      <label class="opt"><input type="checkbox" id="scrollTabs"> <span data-i18n="scrollTabs"></span> <small data-i18n="scrollTabsHint"></small></label>
+    </div>
+
+    <div id="panel-links" hidden>
+      <label class="field">
+        <span><span data-i18n="linksLabel"></span> <small data-i18n="linksHint"></small></span>
+        <textarea id="links" rows="7" dir="ltr" placeholder="https://…&#10;https://…"></textarea>
+      </label>
+      <p class="hint" id="linkCount"></p>
+      <label class="opt"><input type="checkbox" id="scrollLinks"> <span data-i18n="scrollLinks"></span></label>
+      <label class="opt"><input type="checkbox" id="keepOpen"> <span data-i18n="keepOpen"></span> <small data-i18n="keepOpenHint"></small></label>
+    </div>
+
+    <details>
+      <summary data-i18n="saveSettings"></summary>
+      <label class="opt"><input type="checkbox" id="combine"> <span data-i18n="combine"></span></label>
+      <label class="opt"><input type="checkbox" id="separate"> <span data-i18n="separate"></span></label>
+      <div class="opt">
+        <span data-i18n="fileType"></span>
+        <label><input type="radio" name="ext" value="md"> .md</label>
+        <label><input type="radio" name="ext" value="txt"> .txt</label>
+      </div>
+      <label class="field">
+        <span data-i18n="readMode"></span>
+        <select id="mode">
+          <option value="auto" data-i18n="modeAuto"></option>
+          <option value="reader" data-i18n="modeReader"></option>
+          <option value="full" data-i18n="modeFull"></option>
+        </select>
+      </label>
+    </details>
+
+    <button id="go" type="button" class="primary" data-i18n="go"></button>
+    <p id="err" class="err" hidden></p>
+  </section>
+
+  <section id="progress" hidden>
+    <div class="bar"><div id="barFill"></div></div>
+    <p id="summary"></p>
+    <ul id="results" class="results"></ul>
+    <div class="row">
+      <button id="show" type="button" class="primary" data-i18n="showFolder" hidden></button>
+      <button id="stop" type="button" data-i18n="stop"></button>
+      <button id="again" type="button" data-i18n="newJob" hidden></button>
+    </div>
+  </section>
+
+  <script src="../shared/i18n.js"></script>
+  <script src="../shared/folder-name.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

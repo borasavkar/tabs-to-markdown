@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "Sekmeleri, sekme gruplarını ya da linkleri yapay zekaya yüklenecek temiz Markdown dosyalarına çevirir."
+  },
+  "popupSubtitle": {
+    "message": "Sayfaları yapay zeka için Markdown dosyasına çevirir"
+  },
+  "folderLabel": {
+    "message": "Klasör adı"
+  },
+  "folderHint": {
+    "message": "(İndirilenler içinde açılır)"
+  },
+  "folderPlaceholder": {
+    "message": "ör. Bluetooth Kulaklık"
+  },
+  "recentFolders": {
+    "message": "Son kullanılanlar:"
+  },
+  "savesToDownloads": {
+    "message": "Sekme grubu yok: dosya doğrudan İndirilenler’e kaydedilir."
+  },
+  "saveToFolder": {
+    "message": "Bunun yerine bir klasöre kaydet"
+  },
+  "progressDoneRoot": {
+    "message": "Bitti: $1 sayfa $2 klasörüne kaydedildi ($3 dosya)."
+  },
+  "folderFromHistory": {
+    "message": "Önceki araştırmaya devam: bu sayfaların bir kısmı daha önce bu klasöre kaydedildi."
+  },
+  "folderFromGroup": {
+    "message": "Sekme grubunun adından."
+  },
+  "folderFromTitles": {
+    "message": "Sayfa başlıklarından önerildi; değiştirebilirsin."
+  },
+  "folderFromLinks": {
+    "message": "Linklerden önerildi; değiştirebilirsin."
+  },
+  "tabTabs": {
+    "message": "Sekmelerden"
+  },
+  "tabLinks": {
+    "message": "Linklerden"
+  },
+  "sourceLabel": {
+    "message": "Hangi sekmeler?"
+  },
+  "sourceGroup": {
+    "message": "Sekme grubu: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "İsimsiz grup $1"
+  },
+  "sourceSelected": {
+    "message": "Seçili sekmeler ($1)"
+  },
+  "sourceWindow": {
+    "message": "Bu penceredeki tüm sekmeler ($1)"
+  },
+  "sourceActive": {
+    "message": "Sadece bu sekme"
+  },
+  "selectAll": {
+    "message": "Tümünü seç"
+  },
+  "selectedCount": {
+    "message": "$1 / $2 seçili"
+  },
+  "notWebPage": {
+    "message": "Web sayfası değil, okunamaz"
+  },
+  "scrollTabs": {
+    "message": "Önce sayfayı aşağı kaydır"
+  },
+  "scrollTabsHint": {
+    "message": "(geç yüklenen bölümler için, yavaşlatır)"
+  },
+  "linksLabel": {
+    "message": "Linkler"
+  },
+  "linksHint": {
+    "message": "(her satıra bir tane)"
+  },
+  "linksNone": {
+    "message": "Henüz link yok"
+  },
+  "linksFound": {
+    "message": "$1 link bulundu"
+  },
+  "scrollLinks": {
+    "message": "Sayfayı aşağı kaydırıp geç yüklenen bölümleri de al"
+  },
+  "keepOpen": {
+    "message": "Açılan sekmeleri kapatma"
+  },
+  "keepOpenHint": {
+    "message": "(bir sekme grubunda toplar)"
+  },
+  "saveSettings": {
+    "message": "Kayıt ayarları"
+  },
+  "combine": {
+    "message": "Hepsini tek dosyada birleştir"
+  },
+  "separate": {
+    "message": "Her sayfayı ayrı dosya olarak da kaydet"
+  },
+  "fileType": {
+    "message": "Dosya türü:"
+  },
+  "readMode": {
+    "message": "Okuma yöntemi"
+  },
+  "modeAuto": {
+    "message": "Otomatik (önerilen)"
+  },
+  "modeReader": {
+    "message": "Okuma görünümü (makale, blog)"
+  },
+  "modeFull": {
+    "message": "Sayfanın tamamı"
+  },
+  "go": {
+    "message": "Markdown’a çevir ve indir"
+  },
+  "showFolder": {
+    "message": "Klasörü göster"
+  },
+  "stop": {
+    "message": "Durdur"
+  },
+  "newJob": {
+    "message": "Yeni işlem"
+  },
+  "downloadsFolder": {
+    "message": "İndirilenler"
+  },
+  "errFolder": {
+    "message": "Önce bir klasör adı yaz (ör. ürünün adı)."
+  },
+  "errSaveOption": {
+    "message": "Kayıt ayarlarında en az bir seçenek işaretli olmalı."
+  },
+  "errNoTabs": {
+    "message": "Okunacak sekme seçilmedi."
+  },
+  "errNoLinks": {
+    "message": "Linkleri kutuya yapıştır (her satıra bir tane)."
+  },
+  "errTooManyLinks": {
+    "message": "Tek seferde en fazla $1 link alınabilir."
+  },
+  "errStart": {
+    "message": "İşlem başlatılamadı."
+  },
+  "progressRunning": {
+    "message": "$1 / $2 sayfa okundu…"
+  },
+  "progressDone": {
+    "message": "Bitti: $1 sayfa, $2/$3 klasörüne kaydedildi ($4 dosya)."
+  },
+  "progressFailed": {
+    "message": "$1 sayfa okunamadı."
+  },
+  "progressNone": {
+    "message": "Hiçbir sayfa okunamadı, dosya kaydedilmedi."
+  },
+  "permTitle": {
+    "message": "Sitelere erişim izni gerekiyor"
+  },
+  "permText": {
+    "message": "Sayfaları okuyabilmesi için eklentinin sitelere erişim iznine ihtiyacı var. Sayfalar yalnızca sen bir işlem başlattığında okunur ve hiçbir veri bilgisayarından çıkmaz."
+  },
+  "permButton": {
+    "message": "Erişim izni ver"
+  },
+  "permGranted": {
+    "message": "İzin verildi. Bu sekmeyi kapatıp eklenti simgesine tıklayabilirsin."
+  },
+  "permDenied": {
+    "message": "İzin verilmedi. Eklenti bu izin olmadan sayfaları okuyamaz."
+  },
+  "welcomeHeading": {
+    "message": "Hoş geldin"
+  },
+  "welcomeIntro": {
+    "message": "Sekme gruplarını, seçili sekmeleri ya da yapıştırdığın linkleri Markdown dosyası olarak kaydet ve yapay zeka asistanına yükle."
+  },
+  "errBusy": {
+    "message": "Zaten süren bir işlem var."
+  },
+  "errNotWeb": {
+    "message": "Bu sekme bir web sayfası değil, atlandı."
+  },
+  "errUnknown": {
+    "message": "Bilinmeyen hata"
+  },
+  "errErrorPage": {
+    "message": "Sayfa yüklenemedi; site bir hata sayfası gösterdi."
+  },
+  "errNoAccess": {
+    "message": "Bu sayfaya erişilemedi (PDF, tarayıcı sayfası ya da korumalı site olabilir). $1"
+  },
+  "errTimeout": {
+    "message": "Sayfa zamanında yanıt vermedi."
+  },
+  "errSave": {
+    "message": "Dosyalar kaydedilemedi: $1"
+  },
+  "errPermissionMissing": {
+    "message": "Sitelere erişim izni verilmemiş."
+  },
+  "sizeChars": {
+    "message": "$1 karakter"
+  },
+  "allFiles": {
+    "message": "TÜMÜ"
+  },
+  "combinedIntro": {
+    "message": "Bu dosya $2 ile kaydedilmiş $1 web sayfasının metnini içerir. Fiyat, stok ve yorum bilgileri kaydedildiği ana aittir."
+  },
+  "savedAt": {
+    "message": "Kaydedildi"
+  },
+  "pageCount": {
+    "message": "Sayfa sayısı"
+  },
+  "toc": {
+    "message": "İçindekiler"
+  },
+  "failedPages": {
+    "message": "Okunamayan sayfalar"
+  },
+  "pageN": {
+    "message": "Sayfa $1"
+  },
+  "errBlocked": {
+    "message": "Site bir doğrulama ekranı gösteriyor. Sekmeyi açıp doğrulamayı kendin geç, sonra “Sekmelerden” ile tekrar al."
+  },
+  "errRead": {
+    "message": "Sayfa okunamadı: $1"
+  },
+  "mdSite": {
+    "message": "Site"
+  },
+  "mdAddress": {
+    "message": "Adres"
+  },
+  "mdPageTitle": {
+    "message": "Sayfa başlığı"
+  },
+  "mdProductSummary": {
+    "message": "Ürün özeti"
+  },
+  "mdFromStructured": {
+    "message": "Sayfanın içine gömülü ürün verisinden alındı."
+  },
+  "mdField": {
+    "message": "Bilgi"
+  },
+  "mdValue": {
+    "message": "Değer"
+  },
+  "mdProduct": {
+    "message": "Ürün"
+  },
+  "mdBrand": {
+    "message": "Marka"
+  },
+  "mdModel": {
+    "message": "Model"
+  },
+  "mdColor": {
+    "message": "Renk"
+  },
+  "mdCategory": {
+    "message": "Kategori"
+  },
+  "mdPrice": {
+    "message": "Fiyat"
+  },
+  "mdPriceRange": {
+    "message": "Fiyat aralığı"
+  },
+  "mdOffers": {
+    "message": "$1 teklif"
+  },
+  "mdStock": {
+    "message": "Stok"
+  },
+  "mdSeller": {
+    "message": "Satıcı"
+  },
+  "mdRating": {
+    "message": "Puan"
+  },
+  "mdVotes": {
+    "message": "$1 oy"
+  },
+  "mdReviewCount": {
+    "message": "$1 yorum"
+  },
+  "mdSku": {
+    "message": "Ürün kodu (SKU)"
+  },
+  "mdGtin": {
+    "message": "Barkod (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "Özellikler"
+  },
+  "mdSpec": {
+    "message": "Özellik"
+  },
+  "mdSellerPrices": {
+    "message": "Satıcı fiyatları (ucuzdan pahalıya, ilk $1)"
+  },
+  "mdVariants": {
+    "message": "Seçenekler"
+  },
+  "mdReviewSamples": {
+    "message": "Yorumlardan örnekler (sayfa verisindeki $1 yorum)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 puan"
+  },
+  "mdPageContent": {
+    "message": "Sayfa içeriği"
+  },
+  "mdMethod": {
+    "message": "Okuma yöntemi: $1."
+  },
+  "methodSite": {
+    "message": "siteye özel bölümler"
+  },
+  "methodMain": {
+    "message": "sayfanın ana bölümü"
+  },
+  "methodFull": {
+    "message": "tüm sayfa"
+  },
+  "methodReader": {
+    "message": "okuma görünümü"
+  },
+  "mdColumn": {
+    "message": "Sütun $1"
+  },
+  "availInStock": {
+    "message": "Stokta var"
+  },
+  "availOutOfStock": {
+    "message": "Stokta yok"
+  },
+  "availSoldOut": {
+    "message": "Tükendi"
+  },
+  "availPreOrder": {
+    "message": "Ön sipariş"
+  },
+  "availPreSale": {
+    "message": "Ön satış"
+  },
+  "availBackOrder": {
+    "message": "Sonradan temin"
+  },
+  "availLimited": {
+    "message": "Sınırlı stok"
+  },
+  "availDiscontinued": {
+    "message": "Satıştan kalktı"
+  },
+  "availInStoreOnly": {
+    "message": "Yalnızca mağazada"
+  },
+  "availOnlineOnly": {
+    "message": "Yalnızca internette"
+  }
+}

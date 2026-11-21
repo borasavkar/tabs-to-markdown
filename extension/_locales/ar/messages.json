@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "يحوّل علامات التبويب والروابط إلى ملفات Markdown نظيفة لرفعها إلى ChatGPT وClaude وGemini وغيرها."
+  },
+  "popupSubtitle": {
+    "message": "يحوّل الصفحات إلى ملفات Markdown للذكاء الاصطناعي"
+  },
+  "folderLabel": {
+    "message": "اسم المجلد"
+  },
+  "folderHint": {
+    "message": "(يُنشأ داخل التنزيلات)"
+  },
+  "folderPlaceholder": {
+    "message": "مثال: سماعات بلوتوث"
+  },
+  "recentFolders": {
+    "message": "الأحدث:"
+  },
+  "savesToDownloads": {
+    "message": "لا توجد مجموعة علامات تبويب: يُحفظ الملف مباشرة في التنزيلات."
+  },
+  "saveToFolder": {
+    "message": "الحفظ في مجلد بدلاً من ذلك"
+  },
+  "progressDoneRoot": {
+    "message": "تم: حُفظت $1 صفحة في $2 ($3 ملف)."
+  },
+  "folderFromHistory": {
+    "message": "متابعة بحث سابق: حُفظت بعض هذه الصفحات في هذا المجلد من قبل."
+  },
+  "folderFromGroup": {
+    "message": "من اسم مجموعة علامات التبويب."
+  },
+  "folderFromTitles": {
+    "message": "مقترح من عناوين الصفحات؛ يمكنك تغييره."
+  },
+  "folderFromLinks": {
+    "message": "مقترح من الروابط؛ يمكنك تغييره."
+  },
+  "tabTabs": {
+    "message": "من علامات التبويب"
+  },
+  "tabLinks": {
+    "message": "من الروابط"
+  },
+  "sourceLabel": {
+    "message": "أي علامات تبويب؟"
+  },
+  "sourceGroup": {
+    "message": "مجموعة علامات التبويب: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "مجموعة بلا اسم $1"
+  },
+  "sourceSelected": {
+    "message": "علامات التبويب المحددة ($1)"
+  },
+  "sourceWindow": {
+    "message": "كل علامات التبويب في هذه النافذة ($1)"
+  },
+  "sourceActive": {
+    "message": "علامة التبويب هذه فقط"
+  },
+  "selectAll": {
+    "message": "تحديد الكل"
+  },
+  "selectedCount": {
+    "message": "تم تحديد $1 من $2"
+  },
+  "notWebPage": {
+    "message": "ليست صفحة ويب، لا يمكن قراءتها"
+  },
+  "scrollTabs": {
+    "message": "مرّر الصفحات أولاً"
+  },
+  "scrollTabsHint": {
+    "message": "(للأجزاء التي تُحمَّل لاحقاً؛ أبطأ)"
+  },
+  "linksLabel": {
+    "message": "الروابط"
+  },
+  "linksHint": {
+    "message": "(رابط في كل سطر)"
+  },
+  "linksNone": {
+    "message": "لا توجد روابط بعد"
+  },
+  "linksFound": {
+    "message": "تم العثور على $1 رابط"
+  },
+  "scrollLinks": {
+    "message": "مرّر الصفحات لالتقاط الأجزاء التي تُحمَّل لاحقاً"
+  },
+  "keepOpen": {
+    "message": "إبقاء علامات التبويب المفتوحة"
+  },
+  "keepOpenHint": {
+    "message": "(يجمعها في مجموعة علامات تبويب)"
+  },
+  "saveSettings": {
+    "message": "خيارات الحفظ"
+  },
+  "combine": {
+    "message": "دمج كل شيء في ملف واحد"
+  },
+  "separate": {
+    "message": "حفظ كل صفحة في ملف مستقل أيضاً"
+  },
+  "fileType": {
+    "message": "نوع الملف:"
+  },
+  "readMode": {
+    "message": "طريقة القراءة"
+  },
+  "modeAuto": {
+    "message": "تلقائي (موصى به)"
+  },
+  "modeReader": {
+    "message": "عرض القارئ (مقالات، مدونات)"
+  },
+  "modeFull": {
+    "message": "الصفحة كاملة"
+  },
+  "go": {
+    "message": "التحويل إلى Markdown والتنزيل"
+  },
+  "showFolder": {
+    "message": "إظهار المجلد"
+  },
+  "stop": {
+    "message": "إيقاف"
+  },
+  "newJob": {
+    "message": "مهمة جديدة"
+  },
+  "downloadsFolder": {
+    "message": "التنزيلات"
+  },
+  "errFolder": {
+    "message": "اكتب اسم مجلد أولاً (مثلاً اسم المنتج)."
+  },
+  "errSaveOption": {
+    "message": "حدّد خياراً واحداً على الأقل في خيارات الحفظ."
+  },
+  "errNoTabs": {
+    "message": "لم يتم تحديد أي علامة تبويب."
+  },
+  "errNoLinks": {
+    "message": "الصق الروابط في المربع (رابط في كل سطر)."
+  },
+  "errTooManyLinks": {
+    "message": "يمكن قراءة $1 رابط كحد أقصى في المرة الواحدة."
+  },
+  "errStart": {
+    "message": "تعذّر البدء."
+  },
+  "progressRunning": {
+    "message": "تمت قراءة $1 من $2 صفحة…"
+  },
+  "progressDone": {
+    "message": "تم: حُفظت $1 صفحة في $2/$3 ($4 ملف)."
+  },
+  "progressFailed": {
+    "message": "تعذّرت قراءة $1 صفحة."
+  },
+  "progressNone": {
+    "message": "لم تتم قراءة أي صفحة، ولم يُحفظ شيء."
+  },
+  "permTitle": {
+    "message": "مطلوب إذن الوصول إلى المواقع"
+  },
+  "permText": {
+    "message": "لقراءة الصفحات، تحتاج هذه الإضافة إلى إذن الوصول إلى المواقع. لا تُقرأ الصفحات إلا عندما تبدأ مهمة، ولا يغادر أي شيء جهازك."
+  },
+  "permButton": {
+    "message": "منح الإذن"
+  },
+  "permGranted": {
+    "message": "تم منح الإذن. يمكنك إغلاق علامة التبويب هذه والنقر على أيقونة الإضافة."
+  },
+  "permDenied": {
+    "message": "لم يُمنح الإذن. لا يمكن للإضافة قراءة الصفحات بدونه."
+  },
+  "welcomeHeading": {
+    "message": "مرحباً"
+  },
+  "welcomeIntro": {
+    "message": "احفظ مجموعات علامات التبويب أو علامات التبويب المحددة أو الروابط الملصقة كملفات Markdown وارفعها إلى مساعد الذكاء الاصطناعي."
+  },
+  "errBusy": {
+    "message": "هناك مهمة قيد التشغيل بالفعل."
+  },
+  "errNotWeb": {
+    "message": "ليست صفحة ويب؛ تم تخطيها."
+  },
+  "errUnknown": {
+    "message": "خطأ غير معروف"
+  },
+  "errErrorPage": {
+    "message": "لم يتم تحميل الصفحة؛ عرض الموقع صفحة خطأ."
+  },
+  "errNoAccess": {
+    "message": "تعذّر الوصول إلى هذه الصفحة (قد تكون ملف PDF أو صفحة من صفحات المتصفح أو موقعاً محمياً). $1"
+  },
+  "errTimeout": {
+    "message": "لم تستجب الصفحة في الوقت المناسب."
+  },
+  "errSave": {
+    "message": "تعذّر حفظ الملفات: $1"
+  },
+  "errPermissionMissing": {
+    "message": "لم يُمنح إذن الوصول إلى المواقع."
+  },
+  "sizeChars": {
+    "message": "$1 حرف"
+  },
+  "allFiles": {
+    "message": "الكل"
+  },
+  "combinedIntro": {
+    "message": "يحتوي هذا الملف على نص $1 صفحة ويب محفوظة باستخدام $2. الأسعار والمخزون والمراجعات تعكس لحظة الحفظ."
+  },
+  "savedAt": {
+    "message": "تاريخ الحفظ"
+  },
+  "pageCount": {
+    "message": "عدد الصفحات"
+  },
+  "toc": {
+    "message": "المحتويات"
+  },
+  "failedPages": {
+    "message": "صفحات تعذّرت قراءتها"
+  },
+  "pageN": {
+    "message": "الصفحة $1"
+  },
+  "errBlocked": {
+    "message": "يعرض الموقع شاشة تحقق. افتح علامة التبويب وأكمل التحقق بنفسك، ثم التقطها مرة أخرى عبر «من علامات التبويب»."
+  },
+  "errRead": {
+    "message": "تعذّرت قراءة الصفحة: $1"
+  },
+  "mdSite": {
+    "message": "الموقع"
+  },
+  "mdAddress": {
+    "message": "الرابط"
+  },
+  "mdPageTitle": {
+    "message": "عنوان الصفحة"
+  },
+  "mdProductSummary": {
+    "message": "ملخص المنتج"
+  },
+  "mdFromStructured": {
+    "message": "مأخوذ من بيانات المنتج المضمّنة في الصفحة."
+  },
+  "mdField": {
+    "message": "الحقل"
+  },
+  "mdValue": {
+    "message": "القيمة"
+  },
+  "mdProduct": {
+    "message": "المنتج"
+  },
+  "mdBrand": {
+    "message": "العلامة التجارية"
+  },
+  "mdModel": {
+    "message": "الطراز"
+  },
+  "mdColor": {
+    "message": "اللون"
+  },
+  "mdCategory": {
+    "message": "الفئة"
+  },
+  "mdPrice": {
+    "message": "السعر"
+  },
+  "mdPriceRange": {
+    "message": "نطاق السعر"
+  },
+  "mdOffers": {
+    "message": "$1 عرض"
+  },
+  "mdStock": {
+    "message": "التوفر"
+  },
+  "mdSeller": {
+    "message": "البائع"
+  },
+  "mdRating": {
+    "message": "التقييم"
+  },
+  "mdVotes": {
+    "message": "$1 تقييم"
+  },
+  "mdReviewCount": {
+    "message": "$1 مراجعة"
+  },
+  "mdSku": {
+    "message": "رمز المنتج (SKU)"
+  },
+  "mdGtin": {
+    "message": "الباركود (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "المواصفات"
+  },
+  "mdSpec": {
+    "message": "الميزة"
+  },
+  "mdSellerPrices": {
+    "message": "أسعار البائعين (من الأرخص، أول $1)"
+  },
+  "mdVariants": {
+    "message": "الخيارات"
+  },
+  "mdReviewSamples": {
+    "message": "نماذج من المراجعات ($1 مراجعة من بيانات الصفحة)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 نجوم"
+  },
+  "mdPageContent": {
+    "message": "محتوى الصفحة"
+  },
+  "mdMethod": {
+    "message": "طريقة القراءة: $1."
+  },
+  "methodSite": {
+    "message": "أقسام مخصصة للموقع"
+  },
+  "methodMain": {
+    "message": "الجزء الرئيسي من الصفحة"
+  },
+  "methodFull": {
+    "message": "الصفحة كاملة"
+  },
+  "methodReader": {
+    "message": "عرض القارئ"
+  },
+  "mdColumn": {
+    "message": "العمود $1"
+  },
+  "availInStock": {
+    "message": "متوفر"
+  },
+  "availOutOfStock": {
+    "message": "غير متوفر"
+  },
+  "availSoldOut": {
+    "message": "نفد"
+  },
+  "availPreOrder": {
+    "message": "طلب مسبق"
+  },
+  "availPreSale": {
+    "message": "بيع مسبق"
+  },
+  "availBackOrder": {
+    "message": "قيد الطلب"
+  },
+  "availLimited": {
+    "message": "كمية محدودة"
+  },
+  "availDiscontinued": {
+    "message": "متوقف"
+  },
+  "availInStoreOnly": {
+    "message": "في المتجر فقط"
+  },
+  "availOnlineOnly": {
+    "message": "عبر الإنترنت فقط"
+  }
+}

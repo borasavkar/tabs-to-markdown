@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "टैब, टैब समूह या लिंक को AI पर अपलोड करने के लिए साफ़ Markdown फ़ाइलों में बदलता है।"
+  },
+  "popupSubtitle": {
+    "message": "पेजों को AI के लिए Markdown फ़ाइलों में बदलता है"
+  },
+  "folderLabel": {
+    "message": "फ़ोल्डर का नाम"
+  },
+  "folderHint": {
+    "message": "(डाउनलोड में बनाया जाता है)"
+  },
+  "folderPlaceholder": {
+    "message": "उदा. ब्लूटूथ हेडफ़ोन"
+  },
+  "recentFolders": {
+    "message": "हाल के:"
+  },
+  "savesToDownloads": {
+    "message": "कोई टैब समूह नहीं: फ़ाइल सीधे डाउनलोड में सहेजी जाती है।"
+  },
+  "saveToFolder": {
+    "message": "इसके बजाय फ़ोल्डर में सहेजें"
+  },
+  "progressDoneRoot": {
+    "message": "हो गया: $1 पेज $2 में सहेजे गए ($3 फ़ाइलें)।"
+  },
+  "folderFromHistory": {
+    "message": "पिछली खोज जारी: इनमें से कुछ पेज पहले इसी फ़ोल्डर में सहेजे गए थे।"
+  },
+  "folderFromGroup": {
+    "message": "टैब समूह के नाम से।"
+  },
+  "folderFromTitles": {
+    "message": "पेज शीर्षकों से सुझाया गया; आप इसे बदल सकते हैं।"
+  },
+  "folderFromLinks": {
+    "message": "लिंक से सुझाया गया; आप इसे बदल सकते हैं।"
+  },
+  "tabTabs": {
+    "message": "टैब से"
+  },
+  "tabLinks": {
+    "message": "लिंक से"
+  },
+  "sourceLabel": {
+    "message": "कौन-से टैब?"
+  },
+  "sourceGroup": {
+    "message": "टैब समूह: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "बेनाम समूह $1"
+  },
+  "sourceSelected": {
+    "message": "चुने गए टैब ($1)"
+  },
+  "sourceWindow": {
+    "message": "इस विंडो के सभी टैब ($1)"
+  },
+  "sourceActive": {
+    "message": "सिर्फ़ यह टैब"
+  },
+  "selectAll": {
+    "message": "सभी चुनें"
+  },
+  "selectedCount": {
+    "message": "$2 में से $1 चुने गए"
+  },
+  "notWebPage": {
+    "message": "वेब पेज नहीं है, पढ़ा नहीं जा सकता"
+  },
+  "scrollTabs": {
+    "message": "पहले पेज स्क्रॉल करें"
+  },
+  "scrollTabsHint": {
+    "message": "(देर से लोड होने वाले हिस्सों के लिए; धीमा)"
+  },
+  "linksLabel": {
+    "message": "लिंक"
+  },
+  "linksHint": {
+    "message": "(हर पंक्ति में एक)"
+  },
+  "linksNone": {
+    "message": "अभी कोई लिंक नहीं"
+  },
+  "linksFound": {
+    "message": "$1 लिंक मिले"
+  },
+  "scrollLinks": {
+    "message": "देर से लोड होने वाले हिस्से पाने के लिए पेज स्क्रॉल करें"
+  },
+  "keepOpen": {
+    "message": "खोले गए टैब खुले रखें"
+  },
+  "keepOpenHint": {
+    "message": "(उन्हें एक टैब समूह में रखता है)"
+  },
+  "saveSettings": {
+    "message": "सहेजने के विकल्प"
+  },
+  "combine": {
+    "message": "सब कुछ एक फ़ाइल में जोड़ें"
+  },
+  "separate": {
+    "message": "हर पेज को अलग फ़ाइल के रूप में भी सहेजें"
+  },
+  "fileType": {
+    "message": "फ़ाइल प्रकार:"
+  },
+  "readMode": {
+    "message": "पढ़ने का तरीका"
+  },
+  "modeAuto": {
+    "message": "स्वचालित (सुझाया गया)"
+  },
+  "modeReader": {
+    "message": "रीडर व्यू (लेख, ब्लॉग)"
+  },
+  "modeFull": {
+    "message": "पूरा पेज"
+  },
+  "go": {
+    "message": "Markdown में बदलें और डाउनलोड करें"
+  },
+  "showFolder": {
+    "message": "फ़ोल्डर दिखाएँ"
+  },
+  "stop": {
+    "message": "रोकें"
+  },
+  "newJob": {
+    "message": "नया काम"
+  },
+  "downloadsFolder": {
+    "message": "डाउनलोड"
+  },
+  "errFolder": {
+    "message": "पहले फ़ोल्डर का नाम लिखें (जैसे उत्पाद का नाम)।"
+  },
+  "errSaveOption": {
+    "message": "सहेजने के विकल्पों में कम से कम एक चुनें।"
+  },
+  "errNoTabs": {
+    "message": "कोई टैब नहीं चुना गया।"
+  },
+  "errNoLinks": {
+    "message": "लिंक बॉक्स में चिपकाएँ (हर पंक्ति में एक)।"
+  },
+  "errTooManyLinks": {
+    "message": "एक बार में अधिकतम $1 लिंक पढ़े जा सकते हैं।"
+  },
+  "errStart": {
+    "message": "शुरू नहीं हो सका।"
+  },
+  "progressRunning": {
+    "message": "$2 में से $1 पेज पढ़े गए…"
+  },
+  "progressDone": {
+    "message": "हो गया: $1 पेज $2/$3 में सहेजे गए ($4 फ़ाइलें)।"
+  },
+  "progressFailed": {
+    "message": "$1 पेज पढ़े नहीं जा सके।"
+  },
+  "progressNone": {
+    "message": "कोई पेज पढ़ा नहीं जा सका; कुछ भी सहेजा नहीं गया।"
+  },
+  "permTitle": {
+    "message": "वेबसाइटों तक पहुँच की ज़रूरत है"
+  },
+  "permText": {
+    "message": "पेज पढ़ने के लिए इस एक्सटेंशन को वेबसाइटों तक पहुँच की अनुमति चाहिए। पेज सिर्फ़ तब पढ़े जाते हैं जब आप कोई काम शुरू करते हैं, और कुछ भी आपके कंप्यूटर से बाहर नहीं जाता।"
+  },
+  "permButton": {
+    "message": "पहुँच की अनुमति दें"
+  },
+  "permGranted": {
+    "message": "अनुमति मिल गई। यह टैब बंद करके एक्सटेंशन आइकन पर क्लिक करें।"
+  },
+  "permDenied": {
+    "message": "अनुमति नहीं मिली। इसके बिना एक्सटेंशन पेज नहीं पढ़ सकता।"
+  },
+  "welcomeHeading": {
+    "message": "स्वागत है"
+  },
+  "welcomeIntro": {
+    "message": "टैब समूह, चुने गए टैब या चिपकाए गए लिंक Markdown फ़ाइलों के रूप में सहेजें और अपने AI सहायक पर अपलोड करें।"
+  },
+  "errBusy": {
+    "message": "एक काम पहले से चल रहा है।"
+  },
+  "errNotWeb": {
+    "message": "वेब पेज नहीं है; छोड़ दिया गया।"
+  },
+  "errUnknown": {
+    "message": "अज्ञात त्रुटि"
+  },
+  "errErrorPage": {
+    "message": "पेज लोड नहीं हुआ; साइट ने त्रुटि पेज दिखाया।"
+  },
+  "errNoAccess": {
+    "message": "इस पेज तक पहुँच नहीं हो सकी (यह PDF, ब्राउज़र पेज या सुरक्षित साइट हो सकती है)। $1"
+  },
+  "errTimeout": {
+    "message": "पेज ने समय पर जवाब नहीं दिया।"
+  },
+  "errSave": {
+    "message": "फ़ाइलें सहेजी नहीं जा सकीं: $1"
+  },
+  "errPermissionMissing": {
+    "message": "वेबसाइटों तक पहुँच की अनुमति नहीं दी गई है।"
+  },
+  "sizeChars": {
+    "message": "$1 अक्षर"
+  },
+  "allFiles": {
+    "message": "सभी"
+  },
+  "combinedIntro": {
+    "message": "इस फ़ाइल में $2 से सहेजे गए $1 वेब पेजों का टेक्स्ट है। कीमतें, स्टॉक और समीक्षाएँ सहेजने के समय की हैं।"
+  },
+  "savedAt": {
+    "message": "सहेजा गया"
+  },
+  "pageCount": {
+    "message": "पेज"
+  },
+  "toc": {
+    "message": "सामग्री"
+  },
+  "failedPages": {
+    "message": "जो पेज पढ़े नहीं जा सके"
+  },
+  "pageN": {
+    "message": "पेज $1"
+  },
+  "errBlocked": {
+    "message": "साइट एक सत्यापन स्क्रीन दिखा रही है। टैब खोलें, सत्यापन ख़ुद पूरा करें, फिर “टैब से” के ज़रिए दोबारा लें।"
+  },
+  "errRead": {
+    "message": "पेज पढ़ा नहीं जा सका: $1"
+  },
+  "mdSite": {
+    "message": "साइट"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "पेज शीर्षक"
+  },
+  "mdProductSummary": {
+    "message": "उत्पाद सारांश"
+  },
+  "mdFromStructured": {
+    "message": "पेज में मौजूद उत्पाद डेटा से लिया गया।"
+  },
+  "mdField": {
+    "message": "विवरण"
+  },
+  "mdValue": {
+    "message": "मान"
+  },
+  "mdProduct": {
+    "message": "उत्पाद"
+  },
+  "mdBrand": {
+    "message": "ब्रांड"
+  },
+  "mdModel": {
+    "message": "मॉडल"
+  },
+  "mdColor": {
+    "message": "रंग"
+  },
+  "mdCategory": {
+    "message": "श्रेणी"
+  },
+  "mdPrice": {
+    "message": "कीमत"
+  },
+  "mdPriceRange": {
+    "message": "कीमत सीमा"
+  },
+  "mdOffers": {
+    "message": "$1 ऑफ़र"
+  },
+  "mdStock": {
+    "message": "उपलब्धता"
+  },
+  "mdSeller": {
+    "message": "विक्रेता"
+  },
+  "mdRating": {
+    "message": "रेटिंग"
+  },
+  "mdVotes": {
+    "message": "$1 रेटिंग"
+  },
+  "mdReviewCount": {
+    "message": "$1 समीक्षाएँ"
+  },
+  "mdSku": {
+    "message": "उत्पाद कोड (SKU)"
+  },
+  "mdGtin": {
+    "message": "बारकोड (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "विशेषताएँ"
+  },
+  "mdSpec": {
+    "message": "विशेषता"
+  },
+  "mdSellerPrices": {
+    "message": "विक्रेता कीमतें (सबसे सस्ती पहले, शीर्ष $1)"
+  },
+  "mdVariants": {
+    "message": "विकल्प"
+  },
+  "mdReviewSamples": {
+    "message": "समीक्षाओं के उदाहरण (पेज डेटा से $1 समीक्षाएँ)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 स्टार"
+  },
+  "mdPageContent": {
+    "message": "पेज की सामग्री"
+  },
+  "mdMethod": {
+    "message": "पढ़ने का तरीका: $1।"
+  },
+  "methodSite": {
+    "message": "साइट-विशेष हिस्से"
+  },
+  "methodMain": {
+    "message": "पेज का मुख्य भाग"
+  },
+  "methodFull": {
+    "message": "पूरा पेज"
+  },
+  "methodReader": {
+    "message": "रीडर व्यू"
+  },
+  "mdColumn": {
+    "message": "कॉलम $1"
+  },
+  "availInStock": {
+    "message": "स्टॉक में"
+  },
+  "availOutOfStock": {
+    "message": "स्टॉक में नहीं"
+  },
+  "availSoldOut": {
+    "message": "बिक गया"
+  },
+  "availPreOrder": {
+    "message": "प्री-ऑर्डर"
+  },
+  "availPreSale": {
+    "message": "प्री-सेल"
+  },
+  "availBackOrder": {
+    "message": "बैकऑर्डर"
+  },
+  "availLimited": {
+    "message": "सीमित उपलब्धता"
+  },
+  "availDiscontinued": {
+    "message": "बंद कर दिया गया"
+  },
+  "availInStoreOnly": {
+    "message": "सिर्फ़ स्टोर में"
+  },
+  "availOnlineOnly": {
+    "message": "सिर्फ़ ऑनलाइन"
+  }
+}

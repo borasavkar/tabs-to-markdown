@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "Превращает вкладки, группы вкладок или ссылки в чистые файлы Markdown для загрузки в ChatGPT, Claude, Gemini и другие ИИ."
+  },
+  "popupSubtitle": {
+    "message": "Превращает страницы в файлы Markdown для ИИ"
+  },
+  "folderLabel": {
+    "message": "Имя папки"
+  },
+  "folderHint": {
+    "message": "(создаётся в «Загрузках»)"
+  },
+  "folderPlaceholder": {
+    "message": "например, Bluetooth-наушники"
+  },
+  "recentFolders": {
+    "message": "Недавние:"
+  },
+  "savesToDownloads": {
+    "message": "Нет группы вкладок: файл сохраняется прямо в «Загрузки»."
+  },
+  "saveToFolder": {
+    "message": "Сохранить в папку"
+  },
+  "progressDoneRoot": {
+    "message": "Готово: страниц сохранено — $1, в $2 (файлов: $3)."
+  },
+  "folderFromHistory": {
+    "message": "Продолжение поиска: часть этих страниц уже сохранялась в эту папку."
+  },
+  "folderFromGroup": {
+    "message": "По названию группы вкладок."
+  },
+  "folderFromTitles": {
+    "message": "Предложено по заголовкам страниц; можно изменить."
+  },
+  "folderFromLinks": {
+    "message": "Предложено по ссылкам; можно изменить."
+  },
+  "tabTabs": {
+    "message": "Из вкладок"
+  },
+  "tabLinks": {
+    "message": "Из ссылок"
+  },
+  "sourceLabel": {
+    "message": "Какие вкладки?"
+  },
+  "sourceGroup": {
+    "message": "Группа вкладок: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "Группа без названия $1"
+  },
+  "sourceSelected": {
+    "message": "Выбранные вкладки ($1)"
+  },
+  "sourceWindow": {
+    "message": "Все вкладки в этом окне ($1)"
+  },
+  "sourceActive": {
+    "message": "Только эта вкладка"
+  },
+  "selectAll": {
+    "message": "Выбрать все"
+  },
+  "selectedCount": {
+    "message": "Выбрано: $1 из $2"
+  },
+  "notWebPage": {
+    "message": "Не веб-страница, прочитать нельзя"
+  },
+  "scrollTabs": {
+    "message": "Сначала прокрутить страницы"
+  },
+  "scrollTabsHint": {
+    "message": "(для разделов, которые загружаются позже; медленнее)"
+  },
+  "linksLabel": {
+    "message": "Ссылки"
+  },
+  "linksHint": {
+    "message": "(по одной в строке)"
+  },
+  "linksNone": {
+    "message": "Ссылок пока нет"
+  },
+  "linksFound": {
+    "message": "Найдено ссылок: $1"
+  },
+  "scrollLinks": {
+    "message": "Прокручивать страницы, чтобы захватить разделы, которые загружаются позже"
+  },
+  "keepOpen": {
+    "message": "Не закрывать открытые вкладки"
+  },
+  "keepOpenHint": {
+    "message": "(собирает их в группу вкладок)"
+  },
+  "saveSettings": {
+    "message": "Параметры сохранения"
+  },
+  "combine": {
+    "message": "Объединить всё в один файл"
+  },
+  "separate": {
+    "message": "Также сохранять каждую страницу отдельным файлом"
+  },
+  "fileType": {
+    "message": "Тип файла:"
+  },
+  "readMode": {
+    "message": "Способ чтения"
+  },
+  "modeAuto": {
+    "message": "Автоматически (рекомендуется)"
+  },
+  "modeReader": {
+    "message": "Режим чтения (статьи, блоги)"
+  },
+  "modeFull": {
+    "message": "Вся страница"
+  },
+  "go": {
+    "message": "Преобразовать в Markdown и скачать"
+  },
+  "showFolder": {
+    "message": "Показать папку"
+  },
+  "stop": {
+    "message": "Остановить"
+  },
+  "newJob": {
+    "message": "Новое задание"
+  },
+  "downloadsFolder": {
+    "message": "Загрузки"
+  },
+  "errFolder": {
+    "message": "Сначала введите имя папки (например, название товара)."
+  },
+  "errSaveOption": {
+    "message": "Отметьте хотя бы один параметр сохранения."
+  },
+  "errNoTabs": {
+    "message": "Вкладки не выбраны."
+  },
+  "errNoLinks": {
+    "message": "Вставьте ссылки в поле (по одной в строке)."
+  },
+  "errTooManyLinks": {
+    "message": "За один раз можно прочитать не более $1 ссылок."
+  },
+  "errStart": {
+    "message": "Не удалось запустить."
+  },
+  "progressRunning": {
+    "message": "Прочитано страниц: $1 из $2…"
+  },
+  "progressDone": {
+    "message": "Готово: страниц сохранено — $1, папка $2/$3 (файлов: $4)."
+  },
+  "progressFailed": {
+    "message": "Не удалось прочитать страниц: $1."
+  },
+  "progressNone": {
+    "message": "Ни одну страницу прочитать не удалось; ничего не сохранено."
+  },
+  "permTitle": {
+    "message": "Нужен доступ к сайтам"
+  },
+  "permText": {
+    "message": "Чтобы читать страницы, этому расширению нужен доступ к сайтам. Страницы читаются только когда вы запускаете задание, и ничего не покидает ваш компьютер."
+  },
+  "permButton": {
+    "message": "Разрешить доступ"
+  },
+  "permGranted": {
+    "message": "Доступ разрешён. Можно закрыть эту вкладку и нажать на значок расширения."
+  },
+  "permDenied": {
+    "message": "Доступ не разрешён. Без него расширение не может читать страницы."
+  },
+  "welcomeHeading": {
+    "message": "Добро пожаловать"
+  },
+  "welcomeIntro": {
+    "message": "Сохраняйте группы вкладок, выбранные вкладки или вставленные ссылки в файлы Markdown и загружайте их в своего ИИ-ассистента."
+  },
+  "errBusy": {
+    "message": "Задание уже выполняется."
+  },
+  "errNotWeb": {
+    "message": "Не веб-страница; пропущено."
+  },
+  "errUnknown": {
+    "message": "Неизвестная ошибка"
+  },
+  "errErrorPage": {
+    "message": "Страница не загрузилась; сайт показал страницу ошибки."
+  },
+  "errNoAccess": {
+    "message": "Нет доступа к этой странице (возможно, это PDF, страница браузера или защищённый сайт). $1"
+  },
+  "errTimeout": {
+    "message": "Страница не ответила вовремя."
+  },
+  "errSave": {
+    "message": "Не удалось сохранить файлы: $1"
+  },
+  "errPermissionMissing": {
+    "message": "Доступ к сайтам не разрешён."
+  },
+  "sizeChars": {
+    "message": "символов: $1"
+  },
+  "allFiles": {
+    "message": "ВСЕ"
+  },
+  "combinedIntro": {
+    "message": "Этот файл содержит текст веб-страниц (всего: $1), сохранённых с помощью $2. Цены, наличие и отзывы актуальны на момент сохранения."
+  },
+  "savedAt": {
+    "message": "Сохранено"
+  },
+  "pageCount": {
+    "message": "Страниц"
+  },
+  "toc": {
+    "message": "Содержание"
+  },
+  "failedPages": {
+    "message": "Страницы, которые не удалось прочитать"
+  },
+  "pageN": {
+    "message": "Страница $1"
+  },
+  "errBlocked": {
+    "message": "Сайт показывает экран проверки. Откройте вкладку, пройдите проверку сами и затем снова сохраните её через «Из вкладок»."
+  },
+  "errRead": {
+    "message": "Не удалось прочитать страницу: $1"
+  },
+  "mdSite": {
+    "message": "Сайт"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "Заголовок страницы"
+  },
+  "mdProductSummary": {
+    "message": "Сводка о товаре"
+  },
+  "mdFromStructured": {
+    "message": "Взято из данных о товаре, встроенных в страницу."
+  },
+  "mdField": {
+    "message": "Поле"
+  },
+  "mdValue": {
+    "message": "Значение"
+  },
+  "mdProduct": {
+    "message": "Товар"
+  },
+  "mdBrand": {
+    "message": "Бренд"
+  },
+  "mdModel": {
+    "message": "Модель"
+  },
+  "mdColor": {
+    "message": "Цвет"
+  },
+  "mdCategory": {
+    "message": "Категория"
+  },
+  "mdPrice": {
+    "message": "Цена"
+  },
+  "mdPriceRange": {
+    "message": "Диапазон цен"
+  },
+  "mdOffers": {
+    "message": "предложений: $1"
+  },
+  "mdStock": {
+    "message": "Наличие"
+  },
+  "mdSeller": {
+    "message": "Продавец"
+  },
+  "mdRating": {
+    "message": "Рейтинг"
+  },
+  "mdVotes": {
+    "message": "оценок: $1"
+  },
+  "mdReviewCount": {
+    "message": "отзывов: $1"
+  },
+  "mdSku": {
+    "message": "Артикул (SKU)"
+  },
+  "mdGtin": {
+    "message": "Штрихкод (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "Характеристики"
+  },
+  "mdSpec": {
+    "message": "Характеристика"
+  },
+  "mdSellerPrices": {
+    "message": "Цены продавцов (сначала дешёвые, первые $1)"
+  },
+  "mdVariants": {
+    "message": "Варианты"
+  },
+  "mdReviewSamples": {
+    "message": "Примеры отзывов (из данных страницы, всего: $1)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 звёзд"
+  },
+  "mdPageContent": {
+    "message": "Содержимое страницы"
+  },
+  "mdMethod": {
+    "message": "Способ чтения: $1."
+  },
+  "methodSite": {
+    "message": "разделы, настроенные для сайта"
+  },
+  "methodMain": {
+    "message": "основная часть страницы"
+  },
+  "methodFull": {
+    "message": "вся страница"
+  },
+  "methodReader": {
+    "message": "режим чтения"
+  },
+  "mdColumn": {
+    "message": "Столбец $1"
+  },
+  "availInStock": {
+    "message": "В наличии"
+  },
+  "availOutOfStock": {
+    "message": "Нет в наличии"
+  },
+  "availSoldOut": {
+    "message": "Распродано"
+  },
+  "availPreOrder": {
+    "message": "Предзаказ"
+  },
+  "availPreSale": {
+    "message": "Предпродажа"
+  },
+  "availBackOrder": {
+    "message": "Под заказ"
+  },
+  "availLimited": {
+    "message": "Ограниченное наличие"
+  },
+  "availDiscontinued": {
+    "message": "Снят с производства"
+  },
+  "availInStoreOnly": {
+    "message": "Только в магазине"
+  },
+  "availOnlineOnly": {
+    "message": "Только онлайн"
+  }
+}

@@ -1,0 +1,3 @@
+# Satır sonları LF kalsın: Mozilla kütüphaneleri dosya özetiyle tanır.
+* text=auto eol=lf
+*.png binary

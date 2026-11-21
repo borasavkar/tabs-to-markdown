@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "Macht aus Tabs, Tab-Gruppen oder Links saubere Markdown-Dateien zum Hochladen in ChatGPT, Claude, Gemini und andere KIs."
+  },
+  "popupSubtitle": {
+    "message": "Wandelt Seiten in Markdown-Dateien für KI um"
+  },
+  "folderLabel": {
+    "message": "Ordnername"
+  },
+  "folderHint": {
+    "message": "(wird in Downloads angelegt)"
+  },
+  "folderPlaceholder": {
+    "message": "z. B. Bluetooth-Kopfhörer"
+  },
+  "recentFolders": {
+    "message": "Zuletzt:"
+  },
+  "savesToDownloads": {
+    "message": "Keine Tab-Gruppe: Die Datei wird direkt in Downloads gespeichert."
+  },
+  "saveToFolder": {
+    "message": "Stattdessen in einem Ordner speichern"
+  },
+  "progressDoneRoot": {
+    "message": "Fertig: $1 Seiten in $2 gespeichert ($3 Dateien)."
+  },
+  "folderFromHistory": {
+    "message": "Frühere Recherche: Einige dieser Seiten wurden schon in diesem Ordner gespeichert."
+  },
+  "folderFromGroup": {
+    "message": "Aus dem Namen der Tab-Gruppe."
+  },
+  "folderFromTitles": {
+    "message": "Aus den Seitentiteln vorgeschlagen; du kannst ihn ändern."
+  },
+  "folderFromLinks": {
+    "message": "Aus den Links vorgeschlagen; du kannst ihn ändern."
+  },
+  "tabTabs": {
+    "message": "Aus Tabs"
+  },
+  "tabLinks": {
+    "message": "Aus Links"
+  },
+  "sourceLabel": {
+    "message": "Welche Tabs?"
+  },
+  "sourceGroup": {
+    "message": "Tab-Gruppe: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "Unbenannte Gruppe $1"
+  },
+  "sourceSelected": {
+    "message": "Ausgewählte Tabs ($1)"
+  },
+  "sourceWindow": {
+    "message": "Alle Tabs in diesem Fenster ($1)"
+  },
+  "sourceActive": {
+    "message": "Nur dieser Tab"
+  },
+  "selectAll": {
+    "message": "Alle auswählen"
+  },
+  "selectedCount": {
+    "message": "$1 / $2 ausgewählt"
+  },
+  "notWebPage": {
+    "message": "Keine Webseite, nicht lesbar"
+  },
+  "scrollTabs": {
+    "message": "Seiten zuerst scrollen"
+  },
+  "scrollTabsHint": {
+    "message": "(für spät ladende Bereiche; langsamer)"
+  },
+  "linksLabel": {
+    "message": "Links"
+  },
+  "linksHint": {
+    "message": "(einer pro Zeile)"
+  },
+  "linksNone": {
+    "message": "Noch keine Links"
+  },
+  "linksFound": {
+    "message": "$1 Links gefunden"
+  },
+  "scrollLinks": {
+    "message": "Seiten scrollen, um spät ladende Bereiche zu erfassen"
+  },
+  "keepOpen": {
+    "message": "Geöffnete Tabs behalten"
+  },
+  "keepOpenHint": {
+    "message": "(fasst sie in einer Tab-Gruppe zusammen)"
+  },
+  "saveSettings": {
+    "message": "Speicheroptionen"
+  },
+  "combine": {
+    "message": "Alles in einer Datei zusammenfassen"
+  },
+  "separate": {
+    "message": "Jede Seite zusätzlich als eigene Datei speichern"
+  },
+  "fileType": {
+    "message": "Dateityp:"
+  },
+  "readMode": {
+    "message": "Lesemethode"
+  },
+  "modeAuto": {
+    "message": "Automatisch (empfohlen)"
+  },
+  "modeReader": {
+    "message": "Leseansicht (Artikel, Blogs)"
+  },
+  "modeFull": {
+    "message": "Ganze Seite"
+  },
+  "go": {
+    "message": "In Markdown umwandeln und herunterladen"
+  },
+  "showFolder": {
+    "message": "Ordner anzeigen"
+  },
+  "stop": {
+    "message": "Stoppen"
+  },
+  "newJob": {
+    "message": "Neuer Auftrag"
+  },
+  "downloadsFolder": {
+    "message": "Downloads"
+  },
+  "errFolder": {
+    "message": "Gib zuerst einen Ordnernamen ein (z. B. den Produktnamen)."
+  },
+  "errSaveOption": {
+    "message": "Wähle mindestens eine Speicheroption."
+  },
+  "errNoTabs": {
+    "message": "Keine Tabs ausgewählt."
+  },
+  "errNoLinks": {
+    "message": "Füge die Links in das Feld ein (einer pro Zeile)."
+  },
+  "errTooManyLinks": {
+    "message": "Es können höchstens $1 Links auf einmal gelesen werden."
+  },
+  "errStart": {
+    "message": "Konnte nicht gestartet werden."
+  },
+  "progressRunning": {
+    "message": "$1 / $2 Seiten gelesen…"
+  },
+  "progressDone": {
+    "message": "Fertig: $1 Seiten in $2/$3 gespeichert ($4 Dateien)."
+  },
+  "progressFailed": {
+    "message": "$1 Seiten konnten nicht gelesen werden."
+  },
+  "progressNone": {
+    "message": "Keine Seite konnte gelesen werden; nichts wurde gespeichert."
+  },
+  "permTitle": {
+    "message": "Zugriff auf Websites erforderlich"
+  },
+  "permText": {
+    "message": "Um Seiten zu lesen, braucht diese Erweiterung Zugriff auf Websites. Seiten werden nur gelesen, wenn du einen Auftrag startest, und nichts verlässt deinen Computer."
+  },
+  "permButton": {
+    "message": "Zugriff erlauben"
+  },
+  "permGranted": {
+    "message": "Zugriff erlaubt. Du kannst diesen Tab schließen und auf das Erweiterungssymbol klicken."
+  },
+  "permDenied": {
+    "message": "Zugriff wurde nicht erlaubt. Ohne ihn kann die Erweiterung keine Seiten lesen."
+  },
+  "welcomeHeading": {
+    "message": "Willkommen"
+  },
+  "welcomeIntro": {
+    "message": "Speichere Tab-Gruppen, ausgewählte Tabs oder eingefügte Links als Markdown-Dateien und lade sie in deinen KI-Assistenten hoch."
+  },
+  "errBusy": {
+    "message": "Ein Auftrag läuft bereits."
+  },
+  "errNotWeb": {
+    "message": "Keine Webseite; übersprungen."
+  },
+  "errUnknown": {
+    "message": "Unbekannter Fehler"
+  },
+  "errErrorPage": {
+    "message": "Die Seite wurde nicht geladen; die Website zeigte eine Fehlerseite."
+  },
+  "errNoAccess": {
+    "message": "Auf diese Seite kann nicht zugegriffen werden (möglicherweise ein PDF, eine Browserseite oder eine geschützte Website). $1"
+  },
+  "errTimeout": {
+    "message": "Die Seite hat nicht rechtzeitig geantwortet."
+  },
+  "errSave": {
+    "message": "Dateien konnten nicht gespeichert werden: $1"
+  },
+  "errPermissionMissing": {
+    "message": "Der Zugriff auf Websites wurde nicht erlaubt."
+  },
+  "sizeChars": {
+    "message": "$1 Zeichen"
+  },
+  "allFiles": {
+    "message": "ALLE"
+  },
+  "combinedIntro": {
+    "message": "Diese Datei enthält den Text von $1 Webseiten, gespeichert mit $2. Preise, Verfügbarkeit und Bewertungen entsprechen dem Zeitpunkt des Speicherns."
+  },
+  "savedAt": {
+    "message": "Gespeichert"
+  },
+  "pageCount": {
+    "message": "Seiten"
+  },
+  "toc": {
+    "message": "Inhalt"
+  },
+  "failedPages": {
+    "message": "Nicht lesbare Seiten"
+  },
+  "pageN": {
+    "message": "Seite $1"
+  },
+  "errBlocked": {
+    "message": "Die Website zeigt einen Prüfbildschirm. Öffne den Tab, schließe die Prüfung selbst ab und erfasse ihn dann erneut über „Aus Tabs“."
+  },
+  "errRead": {
+    "message": "Die Seite konnte nicht gelesen werden: $1"
+  },
+  "mdSite": {
+    "message": "Website"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "Seitentitel"
+  },
+  "mdProductSummary": {
+    "message": "Produktübersicht"
+  },
+  "mdFromStructured": {
+    "message": "Aus den in die Seite eingebetteten Produktdaten übernommen."
+  },
+  "mdField": {
+    "message": "Feld"
+  },
+  "mdValue": {
+    "message": "Wert"
+  },
+  "mdProduct": {
+    "message": "Produkt"
+  },
+  "mdBrand": {
+    "message": "Marke"
+  },
+  "mdModel": {
+    "message": "Modell"
+  },
+  "mdColor": {
+    "message": "Farbe"
+  },
+  "mdCategory": {
+    "message": "Kategorie"
+  },
+  "mdPrice": {
+    "message": "Preis"
+  },
+  "mdPriceRange": {
+    "message": "Preisspanne"
+  },
+  "mdOffers": {
+    "message": "$1 Angebote"
+  },
+  "mdStock": {
+    "message": "Verfügbarkeit"
+  },
+  "mdSeller": {
+    "message": "Verkäufer"
+  },
+  "mdRating": {
+    "message": "Bewertung"
+  },
+  "mdVotes": {
+    "message": "$1 Bewertungen"
+  },
+  "mdReviewCount": {
+    "message": "$1 Rezensionen"
+  },
+  "mdSku": {
+    "message": "Artikelnummer (SKU)"
+  },
+  "mdGtin": {
+    "message": "Barcode (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "Technische Daten"
+  },
+  "mdSpec": {
+    "message": "Merkmal"
+  },
+  "mdSellerPrices": {
+    "message": "Preise nach Verkäufer (günstigste zuerst, erste $1)"
+  },
+  "mdVariants": {
+    "message": "Varianten"
+  },
+  "mdReviewSamples": {
+    "message": "Beispielrezensionen ($1 Rezensionen aus den Seitendaten)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 Sterne"
+  },
+  "mdPageContent": {
+    "message": "Seiteninhalt"
+  },
+  "mdMethod": {
+    "message": "Lesemethode: $1."
+  },
+  "methodSite": {
+    "message": "websitespezifische Bereiche"
+  },
+  "methodMain": {
+    "message": "Hauptteil der Seite"
+  },
+  "methodFull": {
+    "message": "ganze Seite"
+  },
+  "methodReader": {
+    "message": "Leseansicht"
+  },
+  "mdColumn": {
+    "message": "Spalte $1"
+  },
+  "availInStock": {
+    "message": "Auf Lager"
+  },
+  "availOutOfStock": {
+    "message": "Nicht auf Lager"
+  },
+  "availSoldOut": {
+    "message": "Ausverkauft"
+  },
+  "availPreOrder": {
+    "message": "Vorbestellung"
+  },
+  "availPreSale": {
+    "message": "Vorverkauf"
+  },
+  "availBackOrder": {
+    "message": "Nachbestellt"
+  },
+  "availLimited": {
+    "message": "Begrenzt verfügbar"
+  },
+  "availDiscontinued": {
+    "message": "Eingestellt"
+  },
+  "availInStoreOnly": {
+    "message": "Nur im Geschäft"
+  },
+  "availOnlineOnly": {
+    "message": "Nur online"
+  }
+}

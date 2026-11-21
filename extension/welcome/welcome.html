@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tabs to Markdown for AI</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <!-- İlk kurulumda açılan tanıtım sayfası. Sitelere erişim izni burada istenir,
+       çünkü Chrome izin penceresi açılınca eklenti penceresini (popup) kapatıyor. -->
+  <main>
+    <img src="../icons/icon.svg" alt="" width="64" height="64">
+    <h1><span data-i18n="welcomeHeading"></span> · <span data-i18n="extName"></span></h1>
+    <p class="lead" data-i18n="welcomeIntro"></p>
+
+    <section class="card">
+      <h2 data-i18n="permTitle"></h2>
+      <p data-i18n="permText"></p>
+      <button id="grant" type="button" data-i18n="permButton"></button>
+      <p id="status" class="status" hidden></p>
+    </section>
+  </main>
+
+  <script src="../shared/i18n.js"></script>
+  <script src="welcome.js"></script>
+</body>
+</html>

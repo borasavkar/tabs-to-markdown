@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "Transforme onglets, groupes d’onglets ou liens en fichiers Markdown propres à envoyer à ChatGPT, Claude, Gemini et autres IA."
+  },
+  "popupSubtitle": {
+    "message": "Transforme les pages en fichiers Markdown pour l’IA"
+  },
+  "folderLabel": {
+    "message": "Nom du dossier"
+  },
+  "folderHint": {
+    "message": "(créé dans Téléchargements)"
+  },
+  "folderPlaceholder": {
+    "message": "ex. : Écouteurs Bluetooth"
+  },
+  "recentFolders": {
+    "message": "Récents :"
+  },
+  "savesToDownloads": {
+    "message": "Pas de groupe d’onglets : le fichier est enregistré directement dans Téléchargements."
+  },
+  "saveToFolder": {
+    "message": "Enregistrer plutôt dans un dossier"
+  },
+  "progressDoneRoot": {
+    "message": "Terminé : $1 pages enregistrées dans $2 ($3 fichiers)."
+  },
+  "folderFromHistory": {
+    "message": "Recherche précédente : certaines de ces pages ont déjà été enregistrées dans ce dossier."
+  },
+  "folderFromGroup": {
+    "message": "D’après le nom du groupe d’onglets."
+  },
+  "folderFromTitles": {
+    "message": "Suggéré d’après les titres des pages ; vous pouvez le modifier."
+  },
+  "folderFromLinks": {
+    "message": "Suggéré d’après les liens ; vous pouvez le modifier."
+  },
+  "tabTabs": {
+    "message": "Depuis les onglets"
+  },
+  "tabLinks": {
+    "message": "Depuis des liens"
+  },
+  "sourceLabel": {
+    "message": "Quels onglets ?"
+  },
+  "sourceGroup": {
+    "message": "Groupe d’onglets : $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "Groupe sans nom $1"
+  },
+  "sourceSelected": {
+    "message": "Onglets sélectionnés ($1)"
+  },
+  "sourceWindow": {
+    "message": "Tous les onglets de cette fenêtre ($1)"
+  },
+  "sourceActive": {
+    "message": "Seulement cet onglet"
+  },
+  "selectAll": {
+    "message": "Tout sélectionner"
+  },
+  "selectedCount": {
+    "message": "$1 / $2 sélectionnés"
+  },
+  "notWebPage": {
+    "message": "Pas une page web, illisible"
+  },
+  "scrollTabs": {
+    "message": "Faire défiler les pages d’abord"
+  },
+  "scrollTabsHint": {
+    "message": "(pour les sections chargées tardivement ; plus lent)"
+  },
+  "linksLabel": {
+    "message": "Liens"
+  },
+  "linksHint": {
+    "message": "(un par ligne)"
+  },
+  "linksNone": {
+    "message": "Aucun lien pour l’instant"
+  },
+  "linksFound": {
+    "message": "$1 liens trouvés"
+  },
+  "scrollLinks": {
+    "message": "Faire défiler les pages pour capturer les sections chargées tardivement"
+  },
+  "keepOpen": {
+    "message": "Garder les onglets ouverts"
+  },
+  "keepOpenHint": {
+    "message": "(les regroupe dans un groupe d’onglets)"
+  },
+  "saveSettings": {
+    "message": "Options d’enregistrement"
+  },
+  "combine": {
+    "message": "Tout réunir dans un seul fichier"
+  },
+  "separate": {
+    "message": "Enregistrer aussi chaque page dans son propre fichier"
+  },
+  "fileType": {
+    "message": "Type de fichier :"
+  },
+  "readMode": {
+    "message": "Méthode de lecture"
+  },
+  "modeAuto": {
+    "message": "Automatique (recommandé)"
+  },
+  "modeReader": {
+    "message": "Mode lecture (articles, blogs)"
+  },
+  "modeFull": {
+    "message": "Page entière"
+  },
+  "go": {
+    "message": "Convertir en Markdown et télécharger"
+  },
+  "showFolder": {
+    "message": "Afficher le dossier"
+  },
+  "stop": {
+    "message": "Arrêter"
+  },
+  "newJob": {
+    "message": "Nouvelle tâche"
+  },
+  "downloadsFolder": {
+    "message": "Téléchargements"
+  },
+  "errFolder": {
+    "message": "Saisissez d’abord un nom de dossier (ex. : le nom du produit)."
+  },
+  "errSaveOption": {
+    "message": "Cochez au moins une option d’enregistrement."
+  },
+  "errNoTabs": {
+    "message": "Aucun onglet sélectionné."
+  },
+  "errNoLinks": {
+    "message": "Collez les liens dans la zone (un par ligne)."
+  },
+  "errTooManyLinks": {
+    "message": "$1 liens au maximum peuvent être lus en une fois."
+  },
+  "errStart": {
+    "message": "Impossible de démarrer."
+  },
+  "progressRunning": {
+    "message": "$1 / $2 pages lues…"
+  },
+  "progressDone": {
+    "message": "Terminé : $1 pages enregistrées dans $2/$3 ($4 fichiers)."
+  },
+  "progressFailed": {
+    "message": "$1 pages n’ont pas pu être lues."
+  },
+  "progressNone": {
+    "message": "Aucune page n’a pu être lue ; rien n’a été enregistré."
+  },
+  "permTitle": {
+    "message": "Accès aux sites web requis"
+  },
+  "permText": {
+    "message": "Pour lire les pages, cette extension a besoin d’accéder aux sites web. Les pages ne sont lues que lorsque vous lancez une tâche, et rien ne quitte votre ordinateur."
+  },
+  "permButton": {
+    "message": "Autoriser l’accès"
+  },
+  "permGranted": {
+    "message": "Accès autorisé. Vous pouvez fermer cet onglet et cliquer sur l’icône de l’extension."
+  },
+  "permDenied": {
+    "message": "L’accès n’a pas été autorisé. L’extension ne peut pas lire les pages sans lui."
+  },
+  "welcomeHeading": {
+    "message": "Bienvenue"
+  },
+  "welcomeIntro": {
+    "message": "Enregistrez des groupes d’onglets, des onglets sélectionnés ou des liens collés en fichiers Markdown et envoyez-les à votre assistant IA."
+  },
+  "errBusy": {
+    "message": "Une tâche est déjà en cours."
+  },
+  "errNotWeb": {
+    "message": "Pas une page web ; ignorée."
+  },
+  "errUnknown": {
+    "message": "Erreur inconnue"
+  },
+  "errErrorPage": {
+    "message": "La page ne s’est pas chargée ; le site a affiché une page d’erreur."
+  },
+  "errNoAccess": {
+    "message": "Impossible d’accéder à cette page (PDF, page du navigateur ou site protégé possible). $1"
+  },
+  "errTimeout": {
+    "message": "La page n’a pas répondu à temps."
+  },
+  "errSave": {
+    "message": "Impossible d’enregistrer les fichiers : $1"
+  },
+  "errPermissionMissing": {
+    "message": "L’accès aux sites web n’a pas été autorisé."
+  },
+  "sizeChars": {
+    "message": "$1 caractères"
+  },
+  "allFiles": {
+    "message": "TOUT"
+  },
+  "combinedIntro": {
+    "message": "Ce fichier contient le texte de $1 pages web enregistrées avec $2. Les prix, le stock et les avis correspondent au moment de l’enregistrement."
+  },
+  "savedAt": {
+    "message": "Enregistré le"
+  },
+  "pageCount": {
+    "message": "Pages"
+  },
+  "toc": {
+    "message": "Sommaire"
+  },
+  "failedPages": {
+    "message": "Pages illisibles"
+  },
+  "pageN": {
+    "message": "Page $1"
+  },
+  "errBlocked": {
+    "message": "Le site affiche un écran de vérification. Ouvrez l’onglet, effectuez la vérification vous-même, puis capturez-le à nouveau avec « Depuis les onglets »."
+  },
+  "errRead": {
+    "message": "Impossible de lire la page : $1"
+  },
+  "mdSite": {
+    "message": "Site"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "Titre de la page"
+  },
+  "mdProductSummary": {
+    "message": "Résumé du produit"
+  },
+  "mdFromStructured": {
+    "message": "Extrait des données produit intégrées à la page."
+  },
+  "mdField": {
+    "message": "Champ"
+  },
+  "mdValue": {
+    "message": "Valeur"
+  },
+  "mdProduct": {
+    "message": "Produit"
+  },
+  "mdBrand": {
+    "message": "Marque"
+  },
+  "mdModel": {
+    "message": "Modèle"
+  },
+  "mdColor": {
+    "message": "Couleur"
+  },
+  "mdCategory": {
+    "message": "Catégorie"
+  },
+  "mdPrice": {
+    "message": "Prix"
+  },
+  "mdPriceRange": {
+    "message": "Fourchette de prix"
+  },
+  "mdOffers": {
+    "message": "$1 offres"
+  },
+  "mdStock": {
+    "message": "Disponibilité"
+  },
+  "mdSeller": {
+    "message": "Vendeur"
+  },
+  "mdRating": {
+    "message": "Note"
+  },
+  "mdVotes": {
+    "message": "$1 notes"
+  },
+  "mdReviewCount": {
+    "message": "$1 avis"
+  },
+  "mdSku": {
+    "message": "Code produit (SKU)"
+  },
+  "mdGtin": {
+    "message": "Code-barres (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "Caractéristiques"
+  },
+  "mdSpec": {
+    "message": "Caractéristique"
+  },
+  "mdSellerPrices": {
+    "message": "Prix par vendeur (du moins cher, $1 premiers)"
+  },
+  "mdVariants": {
+    "message": "Options"
+  },
+  "mdReviewSamples": {
+    "message": "Exemples d’avis ($1 avis issus des données de la page)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 étoiles"
+  },
+  "mdPageContent": {
+    "message": "Contenu de la page"
+  },
+  "mdMethod": {
+    "message": "Méthode de lecture : $1."
+  },
+  "methodSite": {
+    "message": "sections propres au site"
+  },
+  "methodMain": {
+    "message": "partie principale de la page"
+  },
+  "methodFull": {
+    "message": "page entière"
+  },
+  "methodReader": {
+    "message": "mode lecture"
+  },
+  "mdColumn": {
+    "message": "Colonne $1"
+  },
+  "availInStock": {
+    "message": "En stock"
+  },
+  "availOutOfStock": {
+    "message": "Rupture de stock"
+  },
+  "availSoldOut": {
+    "message": "Épuisé"
+  },
+  "availPreOrder": {
+    "message": "Précommande"
+  },
+  "availPreSale": {
+    "message": "Prévente"
+  },
+  "availBackOrder": {
+    "message": "Sur commande"
+  },
+  "availLimited": {
+    "message": "Disponibilité limitée"
+  },
+  "availDiscontinued": {
+    "message": "Arrêté"
+  },
+  "availInStoreOnly": {
+    "message": "En magasin uniquement"
+  },
+  "availOnlineOnly": {
+    "message": "En ligne uniquement"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "extDescription": {
+    "message": "将打开的标签页、标签组或链接转换为干净的 Markdown 文件，便于上传到 ChatGPT、Claude、Gemini 等 AI。"
+  },
+  "popupSubtitle": {
+    "message": "将网页转换为供 AI 使用的 Markdown 文件"
+  },
+  "folderLabel": {
+    "message": "文件夹名称"
+  },
+  "folderHint": {
+    "message": "（在“下载”中创建）"
+  },
+  "folderPlaceholder": {
+    "message": "例如：蓝牙耳机"
+  },
+  "recentFolders": {
+    "message": "最近："
+  },
+  "savesToDownloads": {
+    "message": "没有标签组：文件将直接保存到“下载”。"
+  },
+  "saveToFolder": {
+    "message": "改为保存到文件夹"
+  },
+  "progressDoneRoot": {
+    "message": "完成：已将 $1 个页面保存到 $2（$3 个文件）。"
+  },
+  "folderFromHistory": {
+    "message": "继续之前的研究：其中部分页面之前已保存到此文件夹。"
+  },
+  "folderFromGroup": {
+    "message": "来自标签组名称。"
+  },
+  "folderFromTitles": {
+    "message": "根据页面标题建议；你可以修改。"
+  },
+  "folderFromLinks": {
+    "message": "根据链接建议；你可以修改。"
+  },
+  "tabTabs": {
+    "message": "从标签页"
+  },
+  "tabLinks": {
+    "message": "从链接"
+  },
+  "sourceLabel": {
+    "message": "哪些标签页？"
+  },
+  "sourceGroup": {
+    "message": "标签组：$1（$2）"
+  },
+  "unnamedGroup": {
+    "message": "未命名组 $1"
+  },
+  "sourceSelected": {
+    "message": "已选标签页（$1）"
+  },
+  "sourceWindow": {
+    "message": "此窗口中的所有标签页（$1）"
+  },
+  "sourceActive": {
+    "message": "仅此标签页"
+  },
+  "selectAll": {
+    "message": "全选"
+  },
+  "selectedCount": {
+    "message": "已选 $1 / $2"
+  },
+  "notWebPage": {
+    "message": "不是网页，无法读取"
+  },
+  "scrollTabs": {
+    "message": "先滚动页面"
+  },
+  "scrollTabsHint": {
+    "message": "（用于延迟加载的部分；较慢）"
+  },
+  "linksLabel": {
+    "message": "链接"
+  },
+  "linksHint": {
+    "message": "（每行一个）"
+  },
+  "linksNone": {
+    "message": "尚无链接"
+  },
+  "linksFound": {
+    "message": "找到 $1 个链接"
+  },
+  "scrollLinks": {
+    "message": "滚动页面以获取延迟加载的部分"
+  },
+  "keepOpen": {
+    "message": "保留打开的标签页"
+  },
+  "keepOpenHint": {
+    "message": "（归入一个标签组）"
+  },
+  "saveSettings": {
+    "message": "保存选项"
+  },
+  "combine": {
+    "message": "全部合并为一个文件"
+  },
+  "separate": {
+    "message": "同时将每个页面另存为单独文件"
+  },
+  "fileType": {
+    "message": "文件类型："
+  },
+  "readMode": {
+    "message": "读取方式"
+  },
+  "modeAuto": {
+    "message": "自动（推荐）"
+  },
+  "modeReader": {
+    "message": "阅读视图（文章、博客）"
+  },
+  "modeFull": {
+    "message": "整个页面"
+  },
+  "go": {
+    "message": "转换为 Markdown 并下载"
+  },
+  "showFolder": {
+    "message": "显示文件夹"
+  },
+  "stop": {
+    "message": "停止"
+  },
+  "newJob": {
+    "message": "新任务"
+  },
+  "downloadsFolder": {
+    "message": "下载"
+  },
+  "errFolder": {
+    "message": "请先输入文件夹名称（例如产品名称）。"
+  },
+  "errSaveOption": {
+    "message": "请至少勾选一个保存选项。"
+  },
+  "errNoTabs": {
+    "message": "未选择标签页。"
+  },
+  "errNoLinks": {
+    "message": "请将链接粘贴到框中（每行一个）。"
+  },
+  "errTooManyLinks": {
+    "message": "一次最多可读取 $1 个链接。"
+  },
+  "errStart": {
+    "message": "无法开始。"
+  },
+  "progressRunning": {
+    "message": "已读取 $1 / $2 个页面…"
+  },
+  "progressDone": {
+    "message": "完成：已将 $1 个页面保存到 $2/$3（$4 个文件）。"
+  },
+  "progressFailed": {
+    "message": "$1 个页面无法读取。"
+  },
+  "progressNone": {
+    "message": "没有读取到任何页面，未保存任何内容。"
+  },
+  "permTitle": {
+    "message": "需要网站访问权限"
+  },
+  "permText": {
+    "message": "为了读取页面，此扩展需要访问网站的权限。只有在你开始任务时才会读取页面，任何内容都不会离开你的电脑。"
+  },
+  "permButton": {
+    "message": "授予访问权限"
+  },
+  "permGranted": {
+    "message": "已授予权限。你可以关闭此标签页并点击扩展图标。"
+  },
+  "permDenied": {
+    "message": "未授予权限。没有此权限，扩展无法读取页面。"
+  },
+  "welcomeHeading": {
+    "message": "欢迎"
+  },
+  "welcomeIntro": {
+    "message": "将标签组、选中的标签页或粘贴的链接保存为 Markdown 文件，并上传到你的 AI 助手。"
+  },
+  "errBusy": {
+    "message": "已有任务正在运行。"
+  },
+  "errNotWeb": {
+    "message": "不是网页，已跳过。"
+  },
+  "errUnknown": {
+    "message": "未知错误"
+  },
+  "errErrorPage": {
+    "message": "页面未能加载，网站显示了错误页面。"
+  },
+  "errNoAccess": {
+    "message": "无法访问此页面（可能是 PDF、浏览器页面或受保护的网站）。$1"
+  },
+  "errTimeout": {
+    "message": "页面未及时响应。"
+  },
+  "errSave": {
+    "message": "无法保存文件：$1"
+  },
+  "errPermissionMissing": {
+    "message": "尚未授予网站访问权限。"
+  },
+  "sizeChars": {
+    "message": "$1 个字符"
+  },
+  "allFiles": {
+    "message": "全部"
+  },
+  "combinedIntro": {
+    "message": "此文件包含使用 $2 保存的 $1 个网页的文本。价格、库存和评价以保存时为准。"
+  },
+  "savedAt": {
+    "message": "保存时间"
+  },
+  "pageCount": {
+    "message": "页面数"
+  },
+  "toc": {
+    "message": "目录"
+  },
+  "failedPages": {
+    "message": "无法读取的页面"
+  },
+  "pageN": {
+    "message": "第 $1 页"
+  },
+  "errBlocked": {
+    "message": "网站正在显示验证页面。请打开该标签页，自行完成验证，然后通过“从标签页”重新获取。"
+  },
+  "errRead": {
+    "message": "无法读取页面：$1"
+  },
+  "mdSite": {
+    "message": "网站"
+  },
+  "mdAddress": {
+    "message": "网址"
+  },
+  "mdPageTitle": {
+    "message": "页面标题"
+  },
+  "mdProductSummary": {
+    "message": "产品摘要"
+  },
+  "mdFromStructured": {
+    "message": "取自页面中嵌入的产品数据。"
+  },
+  "mdField": {
+    "message": "项目"
+  },
+  "mdValue": {
+    "message": "值"
+  },
+  "mdProduct": {
+    "message": "产品"
+  },
+  "mdBrand": {
+    "message": "品牌"
+  },
+  "mdModel": {
+    "message": "型号"
+  },
+  "mdColor": {
+    "message": "颜色"
+  },
+  "mdCategory": {
+    "message": "类别"
+  },
+  "mdPrice": {
+    "message": "价格"
+  },
+  "mdPriceRange": {
+    "message": "价格范围"
+  },
+  "mdOffers": {
+    "message": "$1 个报价"
+  },
+  "mdStock": {
+    "message": "库存"
+  },
+  "mdSeller": {
+    "message": "卖家"
+  },
+  "mdRating": {
+    "message": "评分"
+  },
+  "mdVotes": {
+    "message": "$1 个评分"
+  },
+  "mdReviewCount": {
+    "message": "$1 条评价"
+  },
+  "mdSku": {
+    "message": "产品编号（SKU）"
+  },
+  "mdGtin": {
+    "message": "条形码（GTIN）"
+  },
+  "mdSpecs": {
+    "message": "规格"
+  },
+  "mdSpec": {
+    "message": "特性"
+  },
+  "mdSellerPrices": {
+    "message": "卖家价格（从低到高，前 $1 个）"
+  },
+  "mdVariants": {
+    "message": "选项"
+  },
+  "mdReviewSamples": {
+    "message": "评价示例（页面数据中的 $1 条评价）"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 星"
+  },
+  "mdPageContent": {
+    "message": "页面内容"
+  },
+  "mdMethod": {
+    "message": "读取方式：$1。"
+  },
+  "methodSite": {
+    "message": "网站专属区块"
+  },
+  "methodMain": {
+    "message": "页面主体"
+  },
+  "methodFull": {
+    "message": "整个页面"
+  },
+  "methodReader": {
+    "message": "阅读视图"
+  },
+  "mdColumn": {
+    "message": "第 $1 列"
+  },
+  "availInStock": {
+    "message": "有货"
+  },
+  "availOutOfStock": {
+    "message": "缺货"
+  },
+  "availSoldOut": {
+    "message": "已售罄"
+  },
+  "availPreOrder": {
+    "message": "预订"
+  },
+  "availPreSale": {
+    "message": "预售"
+  },
+  "availBackOrder": {
+    "message": "延期交货"
+  },
+  "availLimited": {
+    "message": "库存有限"
+  },
+  "availDiscontinued": {
+    "message": "已停产"
+  },
+  "availInStoreOnly": {
+    "message": "仅限门店"
+  },
+  "availOnlineOnly": {
+    "message": "仅限线上"
+  }
+}

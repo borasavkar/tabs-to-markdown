@@ -1,0 +1,383 @@
+{
+  "extName": {
+    "message": "Tabs to Markdown for AI"
+  },
+  "extDescription": {
+    "message": "Turn open tabs, tab groups or pasted links into clean Markdown files to upload to ChatGPT, Claude, Gemini and other AIs."
+  },
+  "popupSubtitle": {
+    "message": "Turns pages into Markdown files for AI"
+  },
+  "folderLabel": {
+    "message": "Folder name"
+  },
+  "folderHint": {
+    "message": "(created inside Downloads)"
+  },
+  "folderPlaceholder": {
+    "message": "e.g. Bluetooth headphones"
+  },
+  "recentFolders": {
+    "message": "Recent:"
+  },
+  "savesToDownloads": {
+    "message": "No tab group: the file is saved directly to Downloads."
+  },
+  "saveToFolder": {
+    "message": "Save to a folder instead"
+  },
+  "progressDoneRoot": {
+    "message": "Done: $1 pages saved to $2 ($3 files)."
+  },
+  "folderFromHistory": {
+    "message": "Continuing an earlier research: some of these pages were saved to this folder before."
+  },
+  "folderFromGroup": {
+    "message": "From the tab group name."
+  },
+  "folderFromTitles": {
+    "message": "Suggested from the page titles; you can change it."
+  },
+  "folderFromLinks": {
+    "message": "Suggested from the links; you can change it."
+  },
+  "tabTabs": {
+    "message": "From tabs"
+  },
+  "tabLinks": {
+    "message": "From links"
+  },
+  "sourceLabel": {
+    "message": "Which tabs?"
+  },
+  "sourceGroup": {
+    "message": "Tab group: $1 ($2)"
+  },
+  "unnamedGroup": {
+    "message": "Unnamed group $1"
+  },
+  "sourceSelected": {
+    "message": "Selected tabs ($1)"
+  },
+  "sourceWindow": {
+    "message": "All tabs in this window ($1)"
+  },
+  "sourceActive": {
+    "message": "Only this tab"
+  },
+  "selectAll": {
+    "message": "Select all"
+  },
+  "selectedCount": {
+    "message": "$1 / $2 selected"
+  },
+  "notWebPage": {
+    "message": "Not a web page, can’t be read"
+  },
+  "scrollTabs": {
+    "message": "Scroll pages first"
+  },
+  "scrollTabsHint": {
+    "message": "(for sections that load late; slower)"
+  },
+  "linksLabel": {
+    "message": "Links"
+  },
+  "linksHint": {
+    "message": "(one per line)"
+  },
+  "linksNone": {
+    "message": "No links yet"
+  },
+  "linksFound": {
+    "message": "$1 links found"
+  },
+  "scrollLinks": {
+    "message": "Scroll pages to capture sections that load late"
+  },
+  "keepOpen": {
+    "message": "Keep opened tabs"
+  },
+  "keepOpenHint": {
+    "message": "(collects them in a tab group)"
+  },
+  "saveSettings": {
+    "message": "Save settings"
+  },
+  "combine": {
+    "message": "Combine everything into one file"
+  },
+  "separate": {
+    "message": "Also save each page as its own file"
+  },
+  "fileType": {
+    "message": "File type:"
+  },
+  "readMode": {
+    "message": "Reading method"
+  },
+  "modeAuto": {
+    "message": "Automatic (recommended)"
+  },
+  "modeReader": {
+    "message": "Reader view (articles, blogs)"
+  },
+  "modeFull": {
+    "message": "Whole page"
+  },
+  "go": {
+    "message": "Convert to Markdown and download"
+  },
+  "showFolder": {
+    "message": "Show folder"
+  },
+  "stop": {
+    "message": "Stop"
+  },
+  "newJob": {
+    "message": "New job"
+  },
+  "downloadsFolder": {
+    "message": "Downloads"
+  },
+  "errFolder": {
+    "message": "Enter a folder name first (e.g. the product name)."
+  },
+  "errSaveOption": {
+    "message": "Tick at least one option under save settings."
+  },
+  "errNoTabs": {
+    "message": "No tabs selected."
+  },
+  "errNoLinks": {
+    "message": "Paste the links into the box (one per line)."
+  },
+  "errTooManyLinks": {
+    "message": "At most $1 links can be read at once."
+  },
+  "errStart": {
+    "message": "Could not start."
+  },
+  "progressRunning": {
+    "message": "$1 / $2 pages read…"
+  },
+  "progressDone": {
+    "message": "Done: $1 pages saved to $2/$3 ($4 files)."
+  },
+  "progressFailed": {
+    "message": "$1 pages could not be read."
+  },
+  "progressNone": {
+    "message": "No page could be read; nothing was saved."
+  },
+  "permTitle": {
+    "message": "Access to websites needed"
+  },
+  "permText": {
+    "message": "To read pages, this extension needs permission to access websites. Pages are read only when you start a job, and nothing leaves your computer."
+  },
+  "permButton": {
+    "message": "Grant access"
+  },
+  "permGranted": {
+    "message": "Access granted. You can close this tab and click the extension icon."
+  },
+  "permDenied": {
+    "message": "Access was not granted. The extension can’t read pages without it."
+  },
+  "welcomeHeading": {
+    "message": "Welcome"
+  },
+  "welcomeIntro": {
+    "message": "Save tab groups, selected tabs or pasted links as Markdown files and upload them to your AI assistant."
+  },
+  "errBusy": {
+    "message": "A job is already running."
+  },
+  "errNotWeb": {
+    "message": "Not a web page; skipped."
+  },
+  "errUnknown": {
+    "message": "Unknown error"
+  },
+  "errErrorPage": {
+    "message": "The page did not load; the site showed an error page."
+  },
+  "errNoAccess": {
+    "message": "This page can’t be accessed (it may be a PDF, a browser page or a protected site). $1"
+  },
+  "errTimeout": {
+    "message": "The page did not respond in time."
+  },
+  "errSave": {
+    "message": "Files could not be saved: $1"
+  },
+  "errPermissionMissing": {
+    "message": "Access to websites has not been granted."
+  },
+  "sizeChars": {
+    "message": "$1 characters"
+  },
+  "allFiles": {
+    "message": "ALL"
+  },
+  "combinedIntro": {
+    "message": "This file contains the text of $1 web pages saved with $2. Prices, stock and reviews reflect the moment they were saved."
+  },
+  "savedAt": {
+    "message": "Saved"
+  },
+  "pageCount": {
+    "message": "Pages"
+  },
+  "toc": {
+    "message": "Contents"
+  },
+  "failedPages": {
+    "message": "Pages that could not be read"
+  },
+  "pageN": {
+    "message": "Page $1"
+  },
+  "errBlocked": {
+    "message": "The site is showing a verification screen. Open the tab, complete the check yourself, then capture it again with “From tabs”."
+  },
+  "errRead": {
+    "message": "The page could not be read: $1"
+  },
+  "mdSite": {
+    "message": "Site"
+  },
+  "mdAddress": {
+    "message": "URL"
+  },
+  "mdPageTitle": {
+    "message": "Page title"
+  },
+  "mdProductSummary": {
+    "message": "Product summary"
+  },
+  "mdFromStructured": {
+    "message": "Taken from the product data embedded in the page."
+  },
+  "mdField": {
+    "message": "Field"
+  },
+  "mdValue": {
+    "message": "Value"
+  },
+  "mdProduct": {
+    "message": "Product"
+  },
+  "mdBrand": {
+    "message": "Brand"
+  },
+  "mdModel": {
+    "message": "Model"
+  },
+  "mdColor": {
+    "message": "Color"
+  },
+  "mdCategory": {
+    "message": "Category"
+  },
+  "mdPrice": {
+    "message": "Price"
+  },
+  "mdPriceRange": {
+    "message": "Price range"
+  },
+  "mdOffers": {
+    "message": "$1 offers"
+  },
+  "mdStock": {
+    "message": "Availability"
+  },
+  "mdSeller": {
+    "message": "Seller"
+  },
+  "mdRating": {
+    "message": "Rating"
+  },
+  "mdVotes": {
+    "message": "$1 ratings"
+  },
+  "mdReviewCount": {
+    "message": "$1 reviews"
+  },
+  "mdSku": {
+    "message": "Product code (SKU)"
+  },
+  "mdGtin": {
+    "message": "Barcode (GTIN)"
+  },
+  "mdSpecs": {
+    "message": "Specifications"
+  },
+  "mdSpec": {
+    "message": "Feature"
+  },
+  "mdSellerPrices": {
+    "message": "Seller prices (cheapest first, top $1)"
+  },
+  "mdVariants": {
+    "message": "Options"
+  },
+  "mdReviewSamples": {
+    "message": "Sample reviews ($1 reviews from the page data)"
+  },
+  "mdRatingOutOf": {
+    "message": "$1/$2 stars"
+  },
+  "mdPageContent": {
+    "message": "Page content"
+  },
+  "mdMethod": {
+    "message": "Reading method: $1."
+  },
+  "methodSite": {
+    "message": "site-specific sections"
+  },
+  "methodMain": {
+    "message": "main part of the page"
+  },
+  "methodFull": {
+    "message": "whole page"
+  },
+  "methodReader": {
+    "message": "reader view"
+  },
+  "mdColumn": {
+    "message": "Column $1"
+  },
+  "availInStock": {
+    "message": "In stock"
+  },
+  "availOutOfStock": {
+    "message": "Out of stock"
+  },
+  "availSoldOut": {
+    "message": "Sold out"
+  },
+  "availPreOrder": {
+    "message": "Pre-order"
+  },
+  "availPreSale": {
+    "message": "Pre-sale"
+  },
+  "availBackOrder": {
+    "message": "Back-order"
+  },
+  "availLimited": {
+    "message": "Limited availability"
+  },
+  "availDiscontinued": {
+    "message": "Discontinued"
+  },
+  "availInStoreOnly": {
+    "message": "In store only"
+  },
+  "availOnlineOnly": {
+    "message": "Online only"
+  }
+}
